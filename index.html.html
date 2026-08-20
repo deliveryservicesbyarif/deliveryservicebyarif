@@ -1,0 +1,2159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 24.8.1.2 (Linux)"/>
+	<meta name="created" content="00:00:00"/>
+	<meta name="changed" content="00:00:00"/>
+	<style type="text/css">
+		@page { size: 8.27in 11.69in; margin: 0.79in }
+		p { line-height: 115%; margin-bottom: 0.1in; background: transparent }
+		pre { background: transparent }
+		pre.western { font-family: "Liberation Mono", monospace; font-size: 10pt }
+		pre.cjk { font-family: "NSimSun", monospace; font-size: 10pt }
+		pre.ctl { font-family: "Liberation Mono", monospace; font-size: 10pt }
+	</style>
+</head>
+<body lang="en-US" link="#000080" vlink="#800000" dir="ltr"><pre class="western">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;UTF-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+&lt;title&gt;Arif Delivery Service — Fast &amp; Reliable Delivery Across Karachi&lt;/title&gt;
+&lt;meta name=&quot;description&quot; content=&quot;Fast and reliable motorbike delivery service across DHA, Clifton and all of Karachi. Restaurant, home chef, coffee, dessert &amp; gift delivery available 24/7.&quot;&gt;
+&lt;meta name=&quot;keywords&quot; content=&quot;delivery service Karachi, food delivery, Clifton delivery, DHA delivery, bike delivery, restaurant delivery&quot;&gt;
+&lt;meta name=&quot;author&quot; content=&quot;Arif Hussain&quot;&gt;
+
+&lt;!-- Google Fonts: Sora for headlines, Plus Jakarta Sans for body --&gt;
+&lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.googleapis.com&quot;&gt;
+&lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.gstatic.com&quot; crossorigin&gt;
+&lt;link href=&quot;https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700;800&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;
+
+&lt;!-- Lucide Icons --&gt;
+&lt;script src=&quot;https://unpkg.com/lucide@latest/dist/umd/lucide.js&quot;&gt;&lt;/script&gt;
+
+&lt;!-- Tailwind --&gt;
+&lt;script src=&quot;https://cdn.tailwindcss.com&quot;&gt;&lt;/script&gt;
+
+&lt;style&gt;
+  :root {
+    --bg: #07070c;
+    --bg-2: #0c0c14;
+    --bg-3: #14141f;
+    --red: #ff2e4d;
+    --red-bright: #ff4d6d;
+    --red-deep: #c8203a;
+    --green: #00e676;
+    --green-deep: #00c853;
+    --gold: #ffb547;
+    --text: #ffffff;
+    --text-muted: #9ca3af;
+    --text-dim: #6b7280;
+    --border: rgba(255,255,255,0.08);
+    --border-strong: rgba(255,255,255,0.14);
+    --glass: rgba(255,255,255,0.03);
+  }
+
+  * { -webkit-tap-highlight-color: transparent; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1,h2,h3,h4,.font-display { font-family: 'Sora', sans-serif; }
+
+  /* ===== Background ambient layers ===== */
+  .ambient-bg {
+    position: fixed; inset: 0; z-index: -1; pointer-events: none;
+    background:
+      radial-gradient(900px 600px at 85% -5%, rgba(255,46,77,0.18), transparent 60%),
+      radial-gradient(700px 500px at 5% 30%, rgba(255,46,77,0.08), transparent 60%),
+      radial-gradient(800px 600px at 50% 110%, rgba(0,230,118,0.07), transparent 60%),
+      var(--bg);
+  }
+  .grid-overlay {
+    position: fixed; inset: 0; z-index: -1; pointer-events: none; opacity: 0.5;
+    background-image:
+      linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
+    background-size: 60px 60px;
+    mask-image: radial-gradient(ellipse 80% 60% at 50% 40%, #000 30%, transparent 80%);
+    -webkit-mask-image: radial-gradient(ellipse 80% 60% at 50% 40%, #000 30%, transparent 80%);
+  }
+
+  /* ===== Navbar ===== */
+  .nav-blur { background: rgba(7,7,12,0.7); backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px); border-bottom: 1px solid var(--border); }
+  .nav-link { position: relative; color: var(--text-muted); transition: color .25s; }
+  .nav-link:hover { color: #fff; }
+  .nav-link::after {
+    content: ''; position: absolute; left: 0; bottom: -6px; height: 2px; width: 0;
+    background: linear-gradient(90deg, var(--red), var(--red-bright)); transition: width .3s ease;
+  }
+  .nav-link:hover::after { width: 100%; }
+
+  /* ===== Buttons ===== */
+  .btn-primary {
+    background: linear-gradient(135deg, var(--red) 0%, var(--red-deep) 100%);
+    color: #fff; box-shadow: 0 10px 30px -8px rgba(255,46,77,0.55), inset 0 1px 0 rgba(255,255,255,0.2);
+    transition: all .3s cubic-bezier(.2,.8,.2,1);
+  }
+  .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 18px 40px -8px rgba(255,46,77,0.7), inset 0 1px 0 rgba(255,255,255,0.3); }
+  .btn-ghost {
+    background: rgba(255,255,255,0.04); border: 1px solid var(--border-strong); color: #fff;
+    transition: all .3s ease;
+  }
+  .btn-ghost:hover { background: rgba(255,255,255,0.08); border-color: rgba(255,255,255,0.25); transform: translateY(-2px); }
+  .btn-green {
+    background: linear-gradient(135deg, var(--green) 0%, var(--green-deep) 100%);
+    color: #062b14; box-shadow: 0 10px 30px -8px rgba(0,230,118,0.5), inset 0 1px 0 rgba(255,255,255,0.3);
+    transition: all .3s ease;
+  }
+  .btn-green:hover { transform: translateY(-2px); box-shadow: 0 18px 40px -8px rgba(0,230,118,0.7); }
+
+  /* ===== Hero animations ===== */
+  @keyframes roadDash { to { stroke-dashoffset: -1000; } }
+  .road-line { stroke-dasharray: 40 30; animation: roadDash 18s linear infinite; }
+  @keyframes roadDashFast { to { stroke-dashoffset: -500; } }
+  .road-line-fast { stroke-dasharray: 20 25; animation: roadDashFast 6s linear infinite; }
+
+  @keyframes riderRide {
+    0% { transform: translateX(-15vw) translateY(0); }
+    25% { transform: translateX(20vw) translateY(-8px); }
+    50% { transform: translateX(55vw) translateY(0); }
+    75% { transform: translateX(85vw) translateY(-6px); }
+    100% { transform: translateX(120vw) translateY(0); }
+  }
+  .rider-wrap { animation: riderRide 16s linear infinite; will-change: transform; }
+
+  @keyframes wheelSpin { to { transform: rotate(360deg); } }
+  .wheel { transform-origin: center; animation: wheelSpin .6s linear infinite; }
+
+  @keyframes exhaustPuff {
+    0% { opacity: 0; transform: translate(0,0) scale(0.4); }
+    30% { opacity: 0.5; }
+    100% { opacity: 0; transform: translate(-30px, -10px) scale(1.4); }
+  }
+  .puff { animation: exhaustPuff 1.2s ease-out infinite; }
+  .puff-2 { animation-delay: .4s; }
+  .puff-3 { animation-delay: .8s; }
+
+  @keyframes pinDrop {
+    0% { transform: translateY(-20px) scale(0.6); opacity: 0; }
+    60% { transform: translateY(4px) scale(1.1); opacity: 1; }
+    100% { transform: translateY(0) scale(1); opacity: 1; }
+  }
+  .map-pin { animation: pinDrop .8s cubic-bezier(.2,.8,.2,1) both; }
+
+  @keyframes ping {
+    0% { transform: scale(1); opacity: 0.7; }
+    100% { transform: scale(2.6); opacity: 0; }
+  }
+  .ping-ring { transform-origin: center; animation: ping 2.4s cubic-bezier(0,0,.2,1) infinite; }
+
+  @keyframes floatY { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-12px); } }
+  .float-soft { animation: floatY 4s ease-in-out infinite; }
+
+  @keyframes pulseGlow {
+    0%,100% { box-shadow: 0 0 0 0 rgba(0,230,118,0.6); }
+    50% { box-shadow: 0 0 0 12px rgba(0,230,118,0); }
+  }
+  .live-dot { animation: pulseGlow 2s infinite; }
+
+  @keyframes shimmer {
+    0% { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+  }
+  .shimmer-text {
+    background: linear-gradient(90deg, #fff 0%, #fff 35%, var(--red-bright) 50%, #fff 65%, #fff 100%);
+    background-size: 200% 100%;
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+    animation: shimmer 5s linear infinite;
+  }
+
+  /* Light streak on hero */
+  @keyframes streakMove {
+    0% { transform: translateX(-100%) skewX(-20deg); opacity: 0; }
+    20% { opacity: 1; }
+    100% { transform: translateX(120vw) skewX(-20deg); opacity: 0; }
+  }
+  .light-streak { animation: streakMove 6s ease-in-out infinite; }
+  .light-streak-2 { animation-delay: 3s; animation-duration: 7s; }
+
+  /* ===== Cards ===== */
+  .glass-card {
+    background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.01));
+    border: 1px solid var(--border);
+    backdrop-filter: blur(8px);
+    transition: all .4s cubic-bezier(.2,.8,.2,1);
+  }
+  .glass-card:hover {
+    border-color: rgba(255,46,77,0.5);
+    transform: translateY(-6px);
+    box-shadow: 0 20px 50px -20px rgba(255,46,77,0.35), 0 0 0 1px rgba(255,46,77,0.2);
+  }
+  .glass-card::before {
+    content: ''; position: absolute; inset: 0; border-radius: inherit; pointer-events: none;
+    background: radial-gradient(400px circle at var(--mx,50%) var(--my,50%), rgba(255,46,77,0.15), transparent 40%);
+    opacity: 0; transition: opacity .4s;
+  }
+  .glass-card:hover::before { opacity: 1; }
+
+  /* ===== Section reveal ===== */
+  .reveal { opacity: 0; transform: translateY(40px); transition: opacity .8s ease, transform .8s cubic-bezier(.2,.8,.2,1); }
+  .reveal.in { opacity: 1; transform: translateY(0); }
+  .reveal-delay-1 { transition-delay: .1s; }
+  .reveal-delay-2 { transition-delay: .2s; }
+  .reveal-delay-3 { transition-delay: .3s; }
+  .reveal-delay-4 { transition-delay: .4s; }
+  .reveal-delay-5 { transition-delay: .5s; }
+
+  /* ===== How it works connecting path ===== */
+  @keyframes bikeTravel {
+    0% { left: 8%; }
+    100% { left: 88%; }
+  }
+  .travel-bike { animation: bikeTravel 8s ease-in-out infinite alternate; }
+
+  @keyframes dashFlow { to { stroke-dashoffset: -200; } }
+  .flow-path { stroke-dasharray: 8 8; animation: dashFlow 3s linear infinite; }
+
+  /* ===== Clock ===== */
+  @keyframes clockTick { to { transform: rotate(360deg); } }
+  .clock-hand-h { transform-origin: 50% 50%; animation: clockTick 60s steps(60) infinite; }
+  .clock-hand-m { transform-origin: 50% 50%; animation: clockTick 3600s linear infinite; }
+  .clock-hand-s { transform-origin: 50% 50%; animation: clockTick 6s steps(6) infinite; }
+
+  /* ===== Floating WhatsApp ===== */
+  .float-wa {
+    position: fixed; bottom: 22px; right: 22px; z-index: 60;
+    background: linear-gradient(135deg, #25D366, #128C7E);
+    box-shadow: 0 12px 30px -8px rgba(37,211,102,0.6), 0 0 0 0 rgba(37,211,102,0.4);
+    animation: waPulse 2.5s infinite;
+  }
+  @keyframes waPulse {
+    0%,100% { box-shadow: 0 12px 30px -8px rgba(37,211,102,0.6), 0 0 0 0 rgba(37,211,102,0.5); }
+    50% { box-shadow: 0 12px 30px -8px rgba(37,211,102,0.6), 0 0 0 18px rgba(37,211,102,0); }
+  }
+
+  /* ===== Mobile menu ===== */
+  .mobile-menu { transform: translateX(100%); transition: transform .4s cubic-bezier(.2,.8,.2,1); }
+  .mobile-menu.open { transform: translateX(0); }
+
+  /* ===== Marquee ===== */
+  @keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+  .marquee-track { animation: marquee 30s linear infinite; }
+
+  /* ===== Form ===== */
+  .field {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid var(--border);
+    color: #fff;
+    transition: all .25s;
+  }
+  .field::placeholder { color: var(--text-dim); }
+  .field:focus { outline: none; border-color: var(--red); box-shadow: 0 0 0 4px rgba(255,46,77,0.12); background: rgba(255,255,255,0.06); }
+  select.field option { background: #0c0c14; color: #fff; }
+
+  /* ===== Toast ===== */
+  .toast { transform: translateY(120%); opacity: 0; transition: all .5s cubic-bezier(.2,.8,.2,1); }
+  .toast.show { transform: translateY(0); opacity: 1; }
+
+  /* ===== Map background ===== */
+  .map-bg {
+    background:
+      radial-gradient(circle at 30% 40%, rgba(255,46,77,0.12), transparent 40%),
+      radial-gradient(circle at 70% 60%, rgba(0,230,118,0.08), transparent 40%),
+      linear-gradient(180deg, #0a0a12, #07070c);
+  }
+
+  /* Scrollbar */
+  ::-webkit-scrollbar { width: 10px; height: 10px; }
+  ::-webkit-scrollbar-track { background: var(--bg); }
+  ::-webkit-scrollbar-thumb { background: linear-gradient(180deg, var(--red), var(--red-deep)); border-radius: 10px; }
+
+  /* Section heading kicker */
+  .kicker {
+    display: inline-flex; align-items: center; gap: 8px;
+    padding: 6px 14px; border-radius: 999px;
+    background: rgba(255,46,77,0.08); border: 1px solid rgba(255,46,77,0.25);
+    color: var(--red-bright); font-size: 12px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase;
+  }
+
+  /* Hero glow blob */
+  .glow-blob { filter: blur(60px); }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+  }
+
+  /* Counter */
+  .counter { font-variant-numeric: tabular-nums; }
+
+  /* Step circle */
+  .step-circle {
+    background: linear-gradient(135deg, rgba(255,46,77,0.15), rgba(255,46,77,0.03));
+    border: 1px solid rgba(255,46,77,0.3);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.08), 0 10px 30px -10px rgba(255,46,77,0.3);
+  }
+
+  /* Testimonial card */
+  .testimonial-card {
+    background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.01));
+    border: 1px solid var(--border);
+    transition: all .4s;
+  }
+  .testimonial-card:hover { border-color: rgba(255,255,255,0.18); transform: translateY(-4px); }
+
+  /* Decorative corner */
+  .corner-deco::before, .corner-deco::after {
+    content: ''; position: absolute; width: 22px; height: 22px;
+    border-color: rgba(255,46,77,0.4); border-style: solid; border-width: 0;
+  }
+  .corner-deco::before { top: 12px; left: 12px; border-top-width: 2px; border-left-width: 2px; border-top-left-radius: 8px; }
+  .corner-deco::after { bottom: 12px; right: 12px; border-bottom-width: 2px; border-right-width: 2px; border-bottom-right-radius: 8px; }
+
+  /* ===== Zones &amp; Charges: Zone Card ===== */
+  .zone-card {
+    background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.01));
+    border: 1px solid var(--border);
+    backdrop-filter: blur(8px);
+    transition: all .4s cubic-bezier(.2,.8,.2,1);
+    position: relative;
+    overflow: hidden;
+  }
+  .zone-card:hover {
+    border-color: rgba(255,46,77,0.5);
+    transform: translateY(-6px);
+    box-shadow: 0 20px 50px -20px rgba(255,46,77,0.35), 0 0 0 1px rgba(255,46,77,0.2);
+  }
+  .zone-card .price-num {
+    font-family: 'Sora', sans-serif;
+    font-weight: 800;
+    background: linear-gradient(180deg, #fff 0%, #ffd1d8 100%);
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+    text-shadow: 0 0 30px rgba(255,46,77,0.3);
+  }
+  .zone-badge {
+    background: linear-gradient(135deg, rgba(255,46,77,0.2), rgba(255,46,77,0.05));
+    border: 1px solid rgba(255,46,77,0.4);
+    color: #fff;
+  }
+  .areas-list {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .5s cubic-bezier(.2,.8,.2,1), opacity .3s ease;
+    opacity: 0;
+  }
+  .zone-card.expanded .areas-list {
+    max-height: 800px;
+    opacity: 1;
+  }
+  .zone-card.expanded .toggle-areas .chevron {
+    transform: rotate(180deg);
+  }
+  .chevron { transition: transform .3s ease; }
+
+  @keyframes zoneBikeTravel {
+    0% { offset-distance: 0%; }
+    100% { offset-distance: 100%; }
+  }
+  .zone-bike {
+    offset-path: path('M 0 50 Q 150 0, 300 50 T 600 50 T 900 50 T 1200 50');
+    animation: zoneBikeTravel 6s linear infinite;
+  }
+  @keyframes zoneBikeFallback {
+    0% { left: 0%; top: 0; transform: translateY(0); }
+    25% { transform: translateY(-10px); }
+    50% { transform: translateY(0); }
+    75% { transform: translateY(-6px); }
+    100% { left: 100%; transform: translateY(0); }
+  }
+
+  .area-pill {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+    transition: all .25s ease;
+  }
+  .area-pill:hover {
+    background: rgba(255,46,77,0.08);
+    border-color: rgba(255,46,77,0.3);
+    color: #fff;
+  }
+
+  .out-radius-card {
+    background: linear-gradient(135deg, rgba(0,230,118,0.06), rgba(255,46,77,0.04));
+    border: 1px solid rgba(0,230,118,0.25);
+  }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body class=&quot;relative&quot;&gt;
+
+&lt;!-- Ambient background --&gt;
+&lt;div class=&quot;ambient-bg&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;grid-overlay&quot;&gt;&lt;/div&gt;
+
+&lt;!-- ====== NAVBAR ====== --&gt;
+&lt;header id=&quot;navbar&quot; class=&quot;nav-blur fixed top-0 left-0 right-0 z-50 transition-transform duration-300&quot;&gt;
+  &lt;nav class=&quot;max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 sm:h-20 flex items-center justify-between&quot;&gt;
+    &lt;a href=&quot;#home&quot; class=&quot;flex items-center gap-3 group&quot;&gt;
+      &lt;div class=&quot;relative w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-gradient-to-br from-[#ff2e4d] to-[#c8203a] flex items-center justify-center shadow-lg shadow-red-500/30 group-hover:scale-105 transition-transform overflow-hidden&quot;&gt;
+        &lt;!-- Custom Delivery Bike Logo --&gt;
+        &lt;svg viewBox=&quot;0 0 48 48&quot; class=&quot;w-7 h-7&quot;&gt;
+          &lt;!-- Clock circle background --&gt;
+          &lt;circle cx=&quot;24&quot; cy=&quot;24&quot; r=&quot;22&quot; fill=&quot;none&quot;/&gt;
+          &lt;!-- Clock hands --&gt;
+          &lt;line x1=&quot;24&quot; y1=&quot;24&quot; x2=&quot;24&quot; y2=&quot;14&quot; stroke=&quot;#fff&quot; stroke-width=&quot;1.5&quot; stroke-linecap=&quot;round&quot;/&gt;
+          &lt;line x1=&quot;24&quot; y1=&quot;24&quot; x2=&quot;30&quot; y2=&quot;24&quot; stroke=&quot;#fff&quot; stroke-width=&quot;1.5&quot; stroke-linecap=&quot;round&quot;/&gt;
+          &lt;circle cx=&quot;24&quot; cy=&quot;24&quot; r=&quot;1.5&quot; fill=&quot;#fff&quot;/&gt;
+          &lt;!-- Delivery text arc or simple text --&gt;
+          &lt;text x=&quot;24&quot; y=&quot;40&quot; text-anchor=&quot;middle&quot; font-family=&quot;Sora&quot; font-size=&quot;4&quot; font-weight=&quot;800&quot; fill=&quot;#fff&quot; letter-spacing=&quot;0.5&quot;&gt;DELIVERY&lt;/text&gt;
+          &lt;!-- Bike silhouette overlay --&gt;
+          &lt;g transform=&quot;translate(8, 12) scale(0.65)&quot;&gt;
+            &lt;!-- Rider body --&gt;
+            &lt;path d=&quot;M 16 10 L 24 10 L 26 20 L 14 20 Z&quot; fill=&quot;#fff&quot; opacity=&quot;0.9&quot;/&gt;
+            &lt;!-- Helmet --&gt;
+            &lt;circle cx=&quot;20&quot; cy=&quot;6&quot; r=&quot;5&quot; fill=&quot;#fff&quot;/&gt;
+            &lt;path d=&quot;M 15 6 Q 20 1, 25 6 L 25 8 L 15 8 Z&quot; fill=&quot;#ff2e4d&quot;/&gt;
+            &lt;!-- Bike frame --&gt;
+            &lt;path d=&quot;M 8 24 L 16 24 L 18 20 M 16 24 L 24 24 L 28 20 L 32 24&quot; stroke=&quot;#fff&quot; stroke-width=&quot;1.5&quot; fill=&quot;none&quot;/&gt;
+            &lt;!-- Wheels --&gt;
+            &lt;circle cx=&quot;10&quot; cy=&quot;26&quot; r=&quot;4&quot; fill=&quot;none&quot; stroke=&quot;#fff&quot; stroke-width=&quot;1.5&quot;/&gt;
+            &lt;circle cx=&quot;30&quot; cy=&quot;26&quot; r=&quot;4&quot; fill=&quot;none&quot; stroke=&quot;#fff&quot; stroke-width=&quot;1.5&quot;/&gt;
+            &lt;!-- Delivery box --&gt;
+            &lt;rect x=&quot;22&quot; y=&quot;10&quot; width=&quot;8&quot; height=&quot;8&quot; fill=&quot;#fff&quot; stroke=&quot;#ff2e4d&quot; stroke-width=&quot;0.5&quot;/&gt;
+          &lt;/g&gt;
+          &lt;!-- Red location pins --&gt;
+          &lt;circle cx=&quot;40&quot; cy=&quot;10&quot; r=&quot;2.5&quot; fill=&quot;#00e676&quot;/&gt;
+          &lt;circle cx=&quot;8&quot; cy=&quot;40&quot; r=&quot;2&quot; fill=&quot;#00e676&quot; opacity=&quot;0.7&quot;/&gt;
+        &lt;/svg&gt;
+        &lt;span class=&quot;absolute -top-1 -right-1 w-3 h-3 bg-[#00e676] rounded-full border-2 border-[#07070c] live-dot&quot;&gt;&lt;/span&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;leading-tight&quot;&gt;
+        &lt;div class=&quot;font-display font-extrabold text-base sm:text-lg tracking-tight&quot;&gt;Arif Delivery&lt;/div&gt;
+        &lt;div class=&quot;text-[10px] sm:text-[11px] text-gray-400 -mt-0.5 tracking-[0.18em] uppercase&quot;&gt;Karachi • 24/7&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+
+    &lt;ul class=&quot;hidden lg:flex items-center gap-7 text-sm font-medium&quot;&gt;
+      &lt;li&gt;&lt;a href=&quot;#home&quot; class=&quot;nav-link&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#services&quot; class=&quot;nav-link&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#about&quot; class=&quot;nav-link&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#how&quot; class=&quot;nav-link&quot;&gt;How It Works&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#zones&quot; class=&quot;nav-link text-[#ff2e4d] font-semibold&quot;&gt;Zones &amp; Charges&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#area&quot; class=&quot;nav-link&quot;&gt;Service Area&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#contact&quot; class=&quot;nav-link&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;div class=&quot;hidden lg:flex items-center gap-3&quot;&gt;
+      &lt;a href=&quot;tel:+923007029197&quot; class=&quot;flex items-center gap-2 text-sm font-semibold text-white hover:text-[#00e676] transition-colors&quot;&gt;
+        &lt;i data-lucide=&quot;phone&quot; class=&quot;w-4 h-4&quot;&gt;&lt;/i&gt;
+        +92 300 7029197
+      &lt;/a&gt;
+      &lt;a href=&quot;https://wa.me/923007029197&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; class=&quot;btn-green px-4 py-2.5 rounded-xl text-sm font-bold flex items-center gap-2&quot;&gt;
+        &lt;i data-lucide=&quot;message-circle&quot; class=&quot;w-4 h-4&quot;&gt;&lt;/i&gt;
+        WhatsApp
+      &lt;/a&gt;
+    &lt;/div&gt;
+
+    &lt;button id=&quot;menuBtn&quot; aria-label=&quot;Open menu&quot; class=&quot;lg:hidden w-11 h-11 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center&quot;&gt;
+      &lt;i data-lucide=&quot;menu&quot; class=&quot;w-5 h-5&quot;&gt;&lt;/i&gt;
+    &lt;/button&gt;
+  &lt;/nav&gt;
+&lt;/header&gt;
+
+&lt;!-- Mobile menu --&gt;
+&lt;aside id=&quot;mobileMenu&quot; class=&quot;mobile-menu fixed inset-0 z-[60] lg:hidden&quot;&gt;
+  &lt;div class=&quot;absolute inset-0 bg-black/60 backdrop-blur-sm&quot; id=&quot;menuBackdrop&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;absolute right-0 top-0 bottom-0 w-[78%] max-w-sm bg-[#0c0c14] border-l border-white/10 p-6 flex flex-col&quot;&gt;
+    &lt;div class=&quot;flex items-center justify-between mb-8&quot;&gt;
+      &lt;div class=&quot;flex items-center gap-2&quot;&gt;
+        &lt;div class=&quot;w-9 h-9 rounded-lg bg-gradient-to-br from-[#ff2e4d] to-[#c8203a] flex items-center justify-center&quot;&gt;
+          &lt;i data-lucide=&quot;bike&quot; class=&quot;w-5 h-5 text-white&quot;&gt;&lt;/i&gt;
+        &lt;/div&gt;
+        &lt;span class=&quot;font-display font-bold&quot;&gt;Arif Delivery&lt;/span&gt;
+      &lt;/div&gt;
+      &lt;button id=&quot;closeMenu&quot; aria-label=&quot;Close menu&quot; class=&quot;w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center&quot;&gt;
+        &lt;i data-lucide=&quot;x&quot; class=&quot;w-5 h-5&quot;&gt;&lt;/i&gt;
+      &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;nav class=&quot;flex flex-col gap-1 text-base&quot;&gt;
+      &lt;a href=&quot;#home&quot; class=&quot;mobile-link py-3 border-b border-white/5 text-gray-300 hover:text-white flex items-center gap-3&quot;&gt;&lt;i data-lucide=&quot;home&quot; class=&quot;w-4 h-4 text-[#ff2e4d]&quot;&gt;&lt;/i&gt; Home&lt;/a&gt;
+      &lt;a href=&quot;#services&quot; class=&quot;mobile-link py-3 border-b border-white/5 text-gray-300 hover:text-white flex items-center gap-3&quot;&gt;&lt;i data-lucide=&quot;package&quot; class=&quot;w-4 h-4 text-[#ff2e4d]&quot;&gt;&lt;/i&gt; Services&lt;/a&gt;
+      &lt;a href=&quot;#about&quot; class=&quot;mobile-link py-3 border-b border-white/5 text-gray-300 hover:text-white flex items-center gap-3&quot;&gt;&lt;i data-lucide=&quot;info&quot; class=&quot;w-4 h-4 text-[#ff2e4d]&quot;&gt;&lt;/i&gt; About&lt;/a&gt;
+      &lt;a href=&quot;#how&quot; class=&quot;mobile-link py-3 border-b border-white/5 text-gray-300 hover:text-white flex items-center gap-3&quot;&gt;&lt;i data-lucide=&quot;route&quot; class=&quot;w-4 h-4 text-[#ff2e4d]&quot;&gt;&lt;/i&gt; How It Works&lt;/a&gt;
+      &lt;a href=&quot;#zones&quot; class=&quot;mobile-link py-3 border-b border-white/5 text-[#ff2e4d] font-semibold flex items-center gap-3&quot;&gt;&lt;i data-lucide=&quot;map&quot; class=&quot;w-4 h-4 text-[#ff2e4d]&quot;&gt;&lt;/i&gt; Zones &amp; Charges&lt;/a&gt;
+      &lt;a href=&quot;#area&quot; class=&quot;mobile-link py-3 border-b border-white/5 text-gray-300 hover:text-white flex items-center gap-3&quot;&gt;&lt;i data-lucide=&quot;map-pin&quot; class=&quot;w-4 h-4 text-[#ff2e4d]&quot;&gt;&lt;/i&gt; Service Area&lt;/a&gt;
+      &lt;a href=&quot;#contact&quot; class=&quot;mobile-link py-3 border-b border-white/5 text-gray-300 hover:text-white flex items-center gap-3&quot;&gt;&lt;i data-lucide=&quot;phone&quot; class=&quot;w-4 h-4 text-[#ff2e4d]&quot;&gt;&lt;/i&gt; Contact&lt;/a&gt;
+    &lt;/nav&gt;
+    &lt;div class=&quot;mt-auto space-y-3 pt-6&quot;&gt;
+      &lt;a href=&quot;tel:+923007029197&quot; class=&quot;btn-ghost w-full px-4 py-3 rounded-xl text-sm font-semibold flex items-center justify-center gap-2&quot;&gt;
+        &lt;i data-lucide=&quot;phone&quot; class=&quot;w-4 h-4&quot;&gt;&lt;/i&gt; +92 300 7029197
+      &lt;/a&gt;
+      &lt;a href=&quot;https://wa.me/923007029197&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; class=&quot;btn-green w-full px-4 py-3 rounded-xl text-sm font-bold flex items-center justify-center gap-2&quot;&gt;
+        &lt;i data-lucide=&quot;message-circle&quot; class=&quot;w-4 h-4&quot;&gt;&lt;/i&gt; WhatsApp Us
+      &lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/aside&gt;
+
+&lt;!-- ====== HERO ====== --&gt;
+&lt;section id=&quot;home&quot; class=&quot;relative min-h-screen flex items-center pt-24 pb-12 overflow-hidden&quot;&gt;
+  &lt;!-- Decorative background SVG --&gt;
+  &lt;svg class=&quot;absolute inset-0 w-full h-full pointer-events-none&quot; preserveAspectRatio=&quot;none&quot; viewBox=&quot;0 0 1440 900&quot; fill=&quot;none&quot;&gt;
+    &lt;!-- Road lines --&gt;
+    &lt;line x1=&quot;0&quot; y1=&quot;700&quot; x2=&quot;1440&quot; y2=&quot;700&quot; stroke=&quot;rgba(255,46,77,0.15)&quot; stroke-width=&quot;2&quot;/&gt;
+    &lt;line x1=&quot;0&quot; y1=&quot;780&quot; x2=&quot;1440&quot; y2=&quot;780&quot; stroke=&quot;rgba(255,46,77,0.08)&quot; stroke-width=&quot;1&quot;/&gt;
+    &lt;line x1=&quot;0&quot; y1=&quot;830&quot; x2=&quot;1440&quot; y2=&quot;830&quot; stroke=&quot;rgba(255,46,77,0.05)&quot; stroke-width=&quot;1&quot;/&gt;
+    &lt;!-- Animated road dashes --&gt;
+    &lt;line x1=&quot;0&quot; y1=&quot;700&quot; x2=&quot;1440&quot; y2=&quot;700&quot; stroke=&quot;rgba(255,46,77,0.4)&quot; stroke-width=&quot;3&quot; class=&quot;road-line&quot;/&gt;
+    &lt;line x1=&quot;0&quot; y1=&quot;780&quot; x2=&quot;1440&quot; y2=&quot;780&quot; stroke=&quot;rgba(255,255,255,0.15)&quot; stroke-width=&quot;2&quot; class=&quot;road-line-fast&quot;/&gt;
+    &lt;!-- Curved route --&gt;
+    &lt;path d=&quot;M-100 500 Q 400 400, 700 500 T 1500 480&quot; stroke=&quot;rgba(255,46,77,0.18)&quot; stroke-width=&quot;2&quot; fill=&quot;none&quot; stroke-dasharray=&quot;6 8&quot;/&gt;
+    &lt;path d=&quot;M-100 540 Q 400 440, 700 540 T 1500 520&quot; stroke=&quot;rgba(255,255,255,0.06)&quot; stroke-width=&quot;1&quot; fill=&quot;none&quot;/&gt;
+  &lt;/svg&gt;
+
+  &lt;!-- Light streaks --&gt;
+  &lt;div class=&quot;absolute top-1/3 left-0 right-0 h-px overflow-hidden pointer-events-none&quot;&gt;
+    &lt;div class=&quot;light-streak h-px w-40 bg-gradient-to-r from-transparent via-[#ff2e4d] to-transparent&quot;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;absolute top-2/3 left-0 right-0 h-px overflow-hidden pointer-events-none&quot;&gt;
+    &lt;div class=&quot;light-streak light-streak-2 h-px w-56 bg-gradient-to-r from-transparent via-white to-transparent&quot;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;!-- Floating map pins (decorative) --&gt;
+  &lt;div class=&quot;absolute top-32 left-[12%] hidden md:block float-soft&quot;&gt;
+    &lt;div class=&quot;relative&quot;&gt;
+      &lt;span class=&quot;absolute inset-0 ping-ring rounded-full bg-[#ff2e4d]/30&quot;&gt;&lt;/span&gt;
+      &lt;div class=&quot;relative w-3 h-3 bg-[#ff2e4d] rounded-full&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;absolute top-48 right-[15%] hidden md:block float-soft&quot; style=&quot;animation-delay:1s&quot;&gt;
+    &lt;div class=&quot;relative&quot;&gt;
+      &lt;span class=&quot;absolute inset-0 ping-ring rounded-full bg-[#00e676]/30&quot; style=&quot;animation-delay:1s&quot;&gt;&lt;/span&gt;
+      &lt;div class=&quot;relative w-3 h-3 bg-[#00e676] rounded-full&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;absolute bottom-40 left-[20%] hidden md:block float-soft&quot; style=&quot;animation-delay:2s&quot;&gt;
+    &lt;div class=&quot;relative&quot;&gt;
+      &lt;span class=&quot;absolute inset-0 ping-ring rounded-full bg-white/20&quot;&gt;&lt;/span&gt;
+      &lt;div class=&quot;relative w-2.5 h-2.5 bg-white rounded-full&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full relative z-10&quot;&gt;
+    &lt;div class=&quot;grid lg:grid-cols-12 gap-10 items-center&quot;&gt;
+      &lt;!-- Text content --&gt;
+      &lt;div class=&quot;lg:col-span-7 reveal&quot;&gt;
+        &lt;div class=&quot;kicker mb-6&quot;&gt;
+          &lt;span class=&quot;w-2 h-2 rounded-full bg-[#00e676] live-dot&quot;&gt;&lt;/span&gt;
+          Open Now • Available 24 Hours
+        &lt;/div&gt;
+        &lt;h1 class=&quot;font-display font-extrabold text-4xl sm:text-5xl lg:text-7xl leading-[1.05] tracking-tight&quot;&gt;
+          Fast &amp; Reliable&lt;br&gt;
+          &lt;span class=&quot;shimmer-text&quot;&gt;Delivery&lt;/span&gt; Across&lt;br&gt;
+          &lt;span class=&quot;text-[#ff2e4d]&quot;&gt;Karachi&lt;/span&gt;
+        &lt;/h1&gt;
+        &lt;p class=&quot;mt-6 text-base sm:text-lg text-gray-400 max-w-xl leading-relaxed&quot;&gt;
+          Restaurant, Home Chef, Coffee Shop, Dessert Shop &amp; Gift Delivery —
+          available &lt;span class=&quot;text-white font-semibold&quot;&gt;24/7&lt;/span&gt; across DHA, Clifton and all of Karachi.
+        &lt;/p&gt;
+
+        &lt;div class=&quot;mt-8 flex flex-col sm:flex-row gap-3&quot;&gt;
+          &lt;a href=&quot;#booking&quot; class=&quot;btn-primary px-7 py-4 rounded-xl font-bold text-base flex items-center justify-center gap-2&quot;&gt;
+            &lt;i data-lucide=&quot;package-check&quot; class=&quot;w-5 h-5&quot;&gt;&lt;/i&gt;
+            Book a Delivery
+          &lt;/a&gt;
+          &lt;a href=&quot;https://wa.me/923007029197&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; class=&quot;btn-green px-7 py-4 rounded-xl font-bold text-base flex items-center justify-center gap-2&quot;&gt;
+            &lt;i data-lucide=&quot;message-circle&quot; class=&quot;w-5 h-5&quot;&gt;&lt;/i&gt;
+            WhatsApp Us
+          &lt;/a&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;mt-8 flex items-center gap-6 text-sm&quot;&gt;
+          &lt;a href=&quot;tel:+923007029197&quot; class=&quot;flex items-center gap-2 text-gray-300 hover:text-white transition-colors&quot;&gt;
+            &lt;span class=&quot;w-9 h-9 rounded-full bg-white/5 border border-white/10 flex items-center justify-center&quot;&gt;
+              &lt;i data-lucide=&quot;phone&quot; class=&quot;w-4 h-4 text-[#ff2e4d]&quot;&gt;&lt;/i&gt;
+            &lt;/span&gt;
+            &lt;span&gt;
+              &lt;span class=&quot;block text-[11px] text-gray-500&quot;&gt;Call us anytime&lt;/span&gt;
+              &lt;span class=&quot;font-semibold&quot;&gt;+92 300 7029197&lt;/span&gt;
+            &lt;/span&gt;
+          &lt;/a&gt;
+          &lt;div class=&quot;hidden sm:flex items-center gap-2 text-gray-300&quot;&gt;
+            &lt;span class=&quot;w-9 h-9 rounded-full bg-white/5 border border-white/10 flex items-center justify-center&quot;&gt;
+              &lt;i data-lucide=&quot;map-pin&quot; class=&quot;w-4 h-4 text-[#ff2e4d]&quot;&gt;&lt;/i&gt;
+            &lt;/span&gt;
+            &lt;span&gt;
+              &lt;span class=&quot;block text-[11px] text-gray-500&quot;&gt;Serving&lt;/span&gt;
+              &lt;span class=&quot;font-semibold&quot;&gt;DHA • Clifton • Karachi&lt;/span&gt;
+            &lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;!-- Hero rider visual --&gt;
+      &lt;div class=&quot;lg:col-span-5 reveal reveal-delay-2&quot;&gt;
+        &lt;div class=&quot;relative aspect-square max-w-md mx-auto&quot;&gt;
+          &lt;!-- Glow blob --&gt;
+          &lt;div class=&quot;absolute inset-10 glow-blob bg-[#ff2e4d]/30 rounded-full&quot;&gt;&lt;/div&gt;
+          &lt;div class=&quot;absolute inset-20 glow-blob bg-[#00e676]/10 rounded-full&quot;&gt;&lt;/div&gt;
+
+          &lt;!-- Map background circle --&gt;
+          &lt;div class=&quot;absolute inset-6 rounded-full border border-white/5 overflow-hidden&quot;&gt;
+            &lt;svg viewBox=&quot;0 0 400 400&quot; class=&quot;w-full h-full opacity-60&quot;&gt;
+              &lt;defs&gt;
+                &lt;pattern id=&quot;mapGrid&quot; width=&quot;40&quot; height=&quot;40&quot; patternUnits=&quot;userSpaceOnUse&quot;&gt;
+                  &lt;path d=&quot;M 40 0 L 0 0 0 40&quot; fill=&quot;none&quot; stroke=&quot;rgba(255,255,255,0.06)&quot; stroke-width=&quot;1&quot;/&gt;
+                &lt;/pattern&gt;
+              &lt;/defs&gt;
+              &lt;rect width=&quot;400&quot; height=&quot;400&quot; fill=&quot;url(#mapGrid)&quot;/&gt;
+              &lt;path d=&quot;M 50 200 Q 150 100, 200 200 T 350 250&quot; stroke=&quot;rgba(255,46,77,0.3)&quot; stroke-width=&quot;2&quot; fill=&quot;none&quot; stroke-dasharray=&quot;4 6&quot;/&gt;
+              &lt;path d=&quot;M 100 350 Q 200 280, 300 320&quot; stroke=&quot;rgba(255,255,255,0.1)&quot; stroke-width=&quot;2&quot; fill=&quot;none&quot;/&gt;
+              &lt;circle cx=&quot;100&quot; cy=&quot;180&quot; r=&quot;6&quot; fill=&quot;#ff2e4d&quot;/&gt;
+              &lt;circle cx=&quot;100&quot; cy=&quot;180&quot; r=&quot;6&quot; fill=&quot;#ff2e4d&quot; opacity=&quot;0.4&quot;&gt;
+                &lt;animate attributeName=&quot;r&quot; values=&quot;6;20;6&quot; dur=&quot;2s&quot; repeatCount=&quot;indefinite&quot;/&gt;
+                &lt;animate attributeName=&quot;opacity&quot; values=&quot;0.4;0;0.4&quot; dur=&quot;2s&quot; repeatCount=&quot;indefinite&quot;/&gt;
+              &lt;/circle&gt;
+              &lt;circle cx=&quot;300&quot; cy=&quot;240&quot; r=&quot;6&quot; fill=&quot;#00e676&quot;/&gt;
+              &lt;circle cx=&quot;300&quot; cy=&quot;240&quot; r=&quot;6&quot; fill=&quot;#00e676&quot; opacity=&quot;0.4&quot;&gt;
+                &lt;animate attributeName=&quot;r&quot; values=&quot;6;20;6&quot; dur=&quot;2s&quot; begin=&quot;1s&quot; repeatCount=&quot;indefinite&quot;/&gt;
+                &lt;animate attributeName=&quot;opacity&quot; values=&quot;0.4;0;0.4&quot; dur=&quot;2s&quot; begin=&quot;1s&quot; repeatCount=&quot;indefinite&quot;/&gt;
+              &lt;/circle&gt;
+            &lt;/svg&gt;
+          &lt;/div&gt;
+
+          &lt;!-- Delivery rider SVG --&gt;
+          &lt;div class=&quot;absolute inset-0 flex items-center justify-center&quot;&gt;
+            &lt;svg viewBox=&quot;0 0 300 300&quot; class=&quot;w-3/4 h-3/4&quot;&gt;
+              &lt;!-- Shadow --&gt;
+              &lt;ellipse cx=&quot;150&quot; cy=&quot;240&quot; rx=&quot;80&quot; ry=&quot;10&quot; fill=&quot;rgba(0,0,0,0.4)&quot;/&gt;
+
+              &lt;!-- Exhaust puffs --&gt;
+              &lt;circle cx=&quot;60&quot; cy=&quot;220&quot; r=&quot;8&quot; fill=&quot;rgba(255,255,255,0.15)&quot; class=&quot;puff&quot;/&gt;
+              &lt;circle cx=&quot;50&quot; cy=&quot;218&quot; r=&quot;6&quot; fill=&quot;rgba(255,255,255,0.1)&quot; class=&quot;puff puff-2&quot;/&gt;
+              &lt;circle cx=&quot;42&quot; cy=&quot;216&quot; r=&quot;5&quot; fill=&quot;rgba(255,255,255,0.08)&quot; class=&quot;puff puff-3&quot;/&gt;
+
+              &lt;!-- Delivery box (back) --&gt;
+              &lt;rect x=&quot;170&quot; y=&quot;100&quot; width=&quot;50&quot; height=&quot;50&quot; rx=&quot;4&quot; fill=&quot;#0c0c14&quot; stroke=&quot;#ff2e4d&quot; stroke-width=&quot;2&quot;/&gt;
+              &lt;rect x=&quot;178&quot; y=&quot;108&quot; width=&quot;34&quot; height=&quot;6&quot; fill=&quot;#ff2e4d&quot;/&gt;
+              &lt;text x=&quot;195&quot; y=&quot;138&quot; text-anchor=&quot;middle&quot; font-family=&quot;Sora&quot; font-size=&quot;10&quot; font-weight=&quot;700&quot; fill=&quot;#fff&quot;&gt;DELIVERY&lt;/text&gt;
+
+              &lt;!-- Bike body --&gt;
+              &lt;path d=&quot;M 80 200 L 120 200 L 130 180 L 100 180 Z&quot; fill=&quot;#1a1a26&quot; stroke=&quot;#ff2e4d&quot; stroke-width=&quot;1.5&quot;/&gt;
+              &lt;path d=&quot;M 130 180 L 170 180 L 170 200 L 130 200 Z&quot; fill=&quot;#0c0c14&quot; stroke=&quot;#ff2e4d&quot; stroke-width=&quot;1.5&quot;/&gt;
+              &lt;rect x=&quot;135&quot; y=&quot;155&quot; width=&quot;30&quot; height=&quot;25&quot; rx=&quot;2&quot; fill=&quot;#1a1a26&quot; stroke=&quot;#ff2e4d&quot; stroke-width=&quot;1.5&quot;/&gt;
+
+              &lt;!-- Wheels --&gt;
+              &lt;g transform=&quot;translate(90, 215)&quot;&gt;
+                &lt;circle cx=&quot;0&quot; cy=&quot;0&quot; r=&quot;28&quot; fill=&quot;#0c0c14&quot; stroke=&quot;#ff2e4d&quot; stroke-width=&quot;2&quot;/&gt;
+                &lt;g class=&quot;wheel&quot;&gt;
+                  &lt;circle cx=&quot;0&quot; cy=&quot;0&quot; r=&quot;20&quot; fill=&quot;none&quot; stroke=&quot;rgba(255,46,77,0.4)&quot; stroke-width=&quot;1&quot;/&gt;
+                  &lt;line x1=&quot;-20&quot; y1=&quot;0&quot; x2=&quot;20&quot; y2=&quot;0&quot; stroke=&quot;rgba(255,46,77,0.6)&quot; stroke-width=&quot;2&quot;/&gt;
+                  &lt;line x1=&quot;0&quot; y1=&quot;-20&quot; x2=&quot;0&quot; y2=&quot;20&quot; stroke=&quot;rgba(255,46,77,0.6)&quot; stroke-width=&quot;2&quot;/&gt;
+                  &lt;line x1=&quot;-14&quot; y1=&quot;-14&quot; x2=&quot;14&quot; y2=&quot;14&quot; stroke=&quot;rgba(255,46,77,0.4)&quot; stroke-width=&quot;1.5&quot;/&gt;
+                  &lt;line x1=&quot;-14&quot; y1=&quot;14&quot; x2=&quot;14&quot; y2=&quot;-14&quot; stroke=&quot;rgba(255,46,77,0.4)&quot; stroke-width=&quot;1.5&quot;/&gt;
+                &lt;/g&gt;
+                &lt;circle cx=&quot;0&quot; cy=&quot;0&quot; r=&quot;5&quot; fill=&quot;#ff2e4d&quot;/&gt;
+              &lt;/g&gt;
+
+              &lt;g transform=&quot;translate(190, 215)&quot;&gt;
+                &lt;circle cx=&quot;0&quot; cy=&quot;0&quot; r=&quot;28&quot; fill=&quot;#0c0c14&quot; stroke=&quot;#ff2e4d&quot; stroke-width=&quot;2&quot;/&gt;
+                &lt;g class=&quot;wheel&quot;&gt;
+                  &lt;circle cx=&quot;0&quot; cy=&quot;0&quot; r=&quot;20&quot; fill=&quot;none&quot; stroke=&quot;rgba(255,46,77,0.4)&quot; stroke-width=&quot;1&quot;/&gt;
+                  &lt;line x1=&quot;-20&quot; y1=&quot;0&quot; x2=&quot;20&quot; y2=&quot;0&quot; stroke=&quot;rgba(255,46,77,0.6)&quot; stroke-width=&quot;2&quot;/&gt;
+                  &lt;line x1=&quot;0&quot; y1=&quot;-20&quot; x2=&quot;0&quot; y2=&quot;20&quot; stroke=&quot;rgba(255,46,77,0.6)&quot; stroke-width=&quot;2&quot;/&gt;
+                  &lt;line x1=&quot;-14&quot; y1=&quot;-14&quot; x2=&quot;14&quot; y2=&quot;14&quot; stroke=&quot;rgba(255,46,77,0.4)&quot; stroke-width=&quot;1.5&quot;/&gt;
+                  &lt;line x1=&quot;-14&quot; y1=&quot;14&quot; x2=&quot;14&quot; y2=&quot;-14&quot; stroke=&quot;rgba(255,46,77,0.4)&quot; stroke-width=&quot;1.5&quot;/&gt;
+                &lt;/g&gt;
+                &lt;circle cx=&quot;0&quot; cy=&quot;0&quot; r=&quot;5&quot; fill=&quot;#ff2e4d&quot;/&gt;
+              &lt;/g&gt;
+
+              &lt;!-- Rider body --&gt;
+              &lt;!-- Legs --&gt;
+              &lt;path d=&quot;M 130 150 L 105 195 L 115 200 L 145 155 Z&quot; fill=&quot;#0c0c14&quot; stroke=&quot;#ff2e4d&quot; stroke-width=&quot;1.5&quot;/&gt;
+              &lt;path d=&quot;M 140 150 L 165 195 L 175 200 L 155 155 Z&quot; fill=&quot;#1a1a26&quot; stroke=&quot;#ff2e4d&quot; stroke-width=&quot;1.5&quot;/&gt;
+
+              &lt;!-- Torso (jacket) --&gt;
+              &lt;path d=&quot;M 115 110 L 165 110 L 170 155 L 120 155 Z&quot; fill=&quot;#ff2e4d&quot; stroke=&quot;#0c0c14&quot; stroke-width=&quot;2&quot;/&gt;
+              &lt;path d=&quot;M 115 110 L 165 110 L 167 130 L 113 130 Z&quot; fill=&quot;#c8203a&quot; stroke=&quot;#0c0c14&quot; stroke-width=&quot;1&quot;/&gt;
+              &lt;line x1=&quot;140&quot; y1=&quot;110&quot; x2=&quot;140&quot; y2=&quot;155&quot; stroke=&quot;#0c0c14&quot; stroke-width=&quot;1.5&quot;/&gt;
+              &lt;!-- Reflective stripe --&gt;
+              &lt;rect x=&quot;115&quot; y=&quot;135&quot; width=&quot;50&quot; height=&quot;4&quot; fill=&quot;rgba(255,255,255,0.7)&quot;/&gt;
+
+              &lt;!-- Arms --&gt;
+              &lt;path d=&quot;M 120 115 L 95 155 L 105 160 L 125 120 Z&quot; fill=&quot;#ff2e4d&quot; stroke=&quot;#0c0c14&quot; stroke-width=&quot;1.5&quot;/&gt;
+              &lt;path d=&quot;M 160 115 L 185 155 L 180 162 L 155 120 Z&quot; fill=&quot;#ff2e4d&quot; stroke=&quot;#0c0c14&quot; stroke-width=&quot;1.5&quot;/&gt;
+
+              &lt;!-- Head + helmet --&gt;
+              &lt;circle cx=&quot;140&quot; cy=&quot;90&quot; r=&quot;22&quot; fill=&quot;#0c0c14&quot; stroke=&quot;#ff2e4d&quot; stroke-width=&quot;2&quot;/&gt;
+              &lt;path d=&quot;M 122 86 Q 140 70, 158 86 L 158 95 L 122 95 Z&quot; fill=&quot;#ff2e4d&quot;/&gt;
+              &lt;ellipse cx=&quot;140&quot; cy=&quot;93&quot; rx=&quot;14&quot; ry=&quot;8&quot; fill=&quot;rgba(255,255,255,0.2)&quot;/&gt;
+              &lt;ellipse cx=&quot;140&quot; cy=&quot;93&quot; rx=&quot;10&quot; ry=&quot;5&quot; fill=&quot;rgba(255,255,255,0.15)&quot;/&gt;
+              &lt;path d=&quot;M 118 95 L 162 95&quot; stroke=&quot;#0c0c14&quot; stroke-width=&quot;2&quot;/&gt;
+
+              &lt;!-- Helmet visor shine --&gt;
+              &lt;path d=&quot;M 130 85 Q 140 80, 150 85&quot; stroke=&quot;rgba(255,255,255,0.4)&quot; stroke-width=&quot;1&quot; fill=&quot;none&quot;/&gt;
+            &lt;/svg&gt;
+          &lt;/div&gt;
+
+          &lt;!-- Status card --&gt;
+          &lt;div class=&quot;absolute bottom-4 left-2 sm:left-0 glass-card rounded-xl p-3 flex items-center gap-3 max-w-[200px]&quot;&gt;
+            &lt;div class=&quot;w-10 h-10 rounded-lg bg-[#00e676]/15 border border-[#00e676]/30 flex items-center justify-center&quot;&gt;
+              &lt;i data-lucide=&quot;zap&quot; class=&quot;w-5 h-5 text-[#00e676]&quot;&gt;&lt;/i&gt;
+            &lt;/div&gt;
+            &lt;div&gt;
+              &lt;div class=&quot;text-[11px] text-gray-400 uppercase tracking-wider&quot;&gt;Avg. delivery&lt;/div&gt;
+              &lt;div class=&quot;font-display font-bold text-lg&quot;&gt;25-35 min&lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+
+          &lt;!-- Rating card --&gt;
+          &lt;div class=&quot;absolute top-4 right-2 sm:right-0 glass-card rounded-xl p-3 flex items-center gap-3&quot;&gt;
+            &lt;div class=&quot;w-10 h-10 rounded-lg bg-[#ffb547]/15 border border-[#ffb547]/30 flex items-center justify-center&quot;&gt;
+              &lt;i data-lucide=&quot;star&quot; class=&quot;w-5 h-5 text-[#ffb547] fill-[#ffb547]&quot;&gt;&lt;/i&gt;
+            &lt;/div&gt;
+            &lt;div&gt;
+              &lt;div class=&quot;text-[11px] text-gray-400 uppercase tracking-wider&quot;&gt;Rating&lt;/div&gt;
+              &lt;div class=&quot;font-display font-bold text-lg&quot;&gt;4.9 / 5.0&lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;!-- Marquee strip --&gt;
+  &lt;div class=&quot;absolute bottom-0 left-0 right-0 border-t border-white/5 bg-black/30 backdrop-blur-sm py-3 overflow-hidden&quot;&gt;
+    &lt;div class=&quot;marquee-track flex gap-8 whitespace-nowrap text-xs uppercase tracking-[0.2em] text-gray-500 font-medium&quot;&gt;
+      &lt;span class=&quot;flex items-center gap-3&quot;&gt;🏍 Restaurant Delivery &lt;span class=&quot;text-[#ff2e4d]&quot;&gt;•&lt;/span&gt;&lt;/span&gt;
+      &lt;span class=&quot;flex items-center gap-3&quot;&gt;👨‍🍳 Home Chef Delivery &lt;span class=&quot;text-[#ff2e4d]&quot;&gt;•&lt;/span&gt;&lt;/span&gt;
+      &lt;span class=&quot;flex items-center gap-3&quot;&gt;☕ Coffee Shop Delivery &lt;span class=&quot;text-[#ff2e4d]&quot;&gt;•&lt;/span&gt;&lt;/span&gt;
+      &lt;span class=&quot;flex items-center gap-3&quot;&gt;🍰 Dessert Shop Delivery &lt;span class=&quot;text-[#ff2e4d]&quot;&gt;•&lt;/span&gt;&lt;/span&gt;
+      &lt;span class=&quot;flex items-center gap-3&quot;&gt;🎁 Gift Shop Delivery &lt;span class=&quot;text-[#ff2e4d]&quot;&gt;•&lt;/span&gt;&lt;/span&gt;
+      &lt;span class=&quot;flex items-center gap-3&quot;&gt;🛵 Delivery Boy Service &lt;span class=&quot;text-[#ff2e4d]&quot;&gt;•&lt;/span&gt;&lt;/span&gt;
+      &lt;span class=&quot;flex items-center gap-3&quot;&gt;🏍 Restaurant Delivery &lt;span class=&quot;text-[#ff2e4d]&quot;&gt;•&lt;/span&gt;&lt;/span&gt;
+      &lt;span class=&quot;flex items-center gap-3&quot;&gt;👨‍🍳 Home Chef Delivery &lt;span class=&quot;text-[#ff2e4d]&quot;&gt;•&lt;/span&gt;&lt;/span&gt;
+      &lt;span class=&quot;flex items-center gap-3&quot;&gt;☕ Coffee Shop Delivery &lt;span class=&quot;text-[#ff2e4d]&quot;&gt;•&lt;/span&gt;&lt;/span&gt;
+      &lt;span class=&quot;flex items-center gap-3&quot;&gt;🍰 Dessert Shop Delivery &lt;span class=&quot;text-[#ff2e4d]&quot;&gt;•&lt;/span&gt;&lt;/span&gt;
+      &lt;span class=&quot;flex items-center gap-3&quot;&gt;🎁 Gift Shop Delivery &lt;span class=&quot;text-[#ff2e4d]&quot;&gt;•&lt;/span&gt;&lt;/span&gt;
+      &lt;span class=&quot;flex items-center gap-3&quot;&gt;🛵 Delivery Boy Service &lt;span class=&quot;text-[#ff2e4d]&quot;&gt;•&lt;/span&gt;&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;!-- ====== ABOUT ====== --&gt;
+&lt;section id=&quot;about&quot; class=&quot;relative py-20 sm:py-28&quot;&gt;
+  &lt;div class=&quot;max-w-7xl mx-auto px-4 sm:px-6 lg:px-8&quot;&gt;
+    &lt;div class=&quot;grid lg:grid-cols-2 gap-12 lg:gap-20 items-center&quot;&gt;
+      &lt;div class=&quot;reveal&quot;&gt;
+        &lt;div class=&quot;kicker mb-6&quot;&gt;
+          &lt;i data-lucide=&quot;info&quot; class=&quot;w-3 h-3&quot;&gt;&lt;/i&gt;
+          About Us
+        &lt;/div&gt;
+        &lt;h2 class=&quot;font-display font-extrabold text-3xl sm:text-4xl lg:text-5xl leading-tight tracking-tight&quot;&gt;
+          Your trusted delivery partner &lt;span class=&quot;text-[#ff2e4d]&quot;&gt;across Karachi&lt;/span&gt;
+        &lt;/h2&gt;
+        &lt;p class=&quot;mt-6 text-gray-400 text-base sm:text-lg leading-relaxed&quot;&gt;
+          &lt;span class=&quot;text-white font-semibold&quot;&gt;Arif Delivery Service&lt;/span&gt; provides fast and reliable delivery solutions across DHA, Clifton and other areas of Karachi. We provide professional delivery services for restaurants, home chefs, coffee shops, dessert shops and gift businesses.
+        &lt;/p&gt;
+        &lt;p class=&quot;mt-4 text-gray-500 text-sm sm:text-base leading-relaxed&quot;&gt;
+          Whether you run a restaurant needing daily delivery support, a home chef growing your food business, or you want to surprise someone with a gift — our trained riders make sure every order reaches safely, quickly and professionally.
+        &lt;/p&gt;
+
+        &lt;div class=&quot;mt-8 flex flex-wrap gap-3&quot;&gt;
+          &lt;div class=&quot;inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-sm&quot;&gt;
+            &lt;i data-lucide=&quot;shield-check&quot; class=&quot;w-4 h-4 text-[#00e676]&quot;&gt;&lt;/i&gt; Trusted Riders
+          &lt;/div&gt;
+          &lt;div class=&quot;inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-sm&quot;&gt;
+            &lt;i data-lucide=&quot;zap&quot; class=&quot;w-4 h-4 text-[#ff2e4d]&quot;&gt;&lt;/i&gt; Fast Pickup
+          &lt;/div&gt;
+          &lt;div class=&quot;inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-sm&quot;&gt;
+            &lt;i data-lucide=&quot;clock&quot; class=&quot;w-4 h-4 text-[#ffb547]&quot;&gt;&lt;/i&gt; 24/7 Service
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;!-- Counters --&gt;
+      &lt;div class=&quot;grid grid-cols-2 gap-4 sm:gap-6&quot;&gt;
+        &lt;div class=&quot;reveal reveal-delay-1 glass-card rounded-2xl p-6 relative overflow-hidden corner-deco&quot;&gt;
+          &lt;div class=&quot;w-12 h-12 rounded-xl bg-[#ff2e4d]/15 border border-[#ff2e4d]/30 flex items-center justify-center mb-4&quot;&gt;
+            &lt;i data-lucide=&quot;clock&quot; class=&quot;w-6 h-6 text-[#ff2e4d]&quot;&gt;&lt;/i&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;counter font-display font-extrabold text-4xl sm:text-5xl text-white&quot; data-target=&quot;24&quot; data-suffix=&quot;/7&quot;&gt;0&lt;/div&gt;
+          &lt;div class=&quot;mt-1 text-gray-400 text-sm font-medium&quot;&gt;Available Hours&lt;/div&gt;
+          &lt;div class=&quot;mt-1 text-[11px] text-gray-500&quot;&gt;Always open for you&lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;reveal reveal-delay-2 glass-card rounded-2xl p-6 relative overflow-hidden corner-deco&quot;&gt;
+          &lt;div class=&quot;w-12 h-12 rounded-xl bg-[#00e676]/15 border border-[#00e676]/30 flex items-center justify-center mb-4&quot;&gt;
+            &lt;i data-lucide=&quot;zap&quot; class=&quot;w-6 h-6 text-[#00e676]&quot;&gt;&lt;/i&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;counter font-display font-extrabold text-4xl sm:text-5xl text-white&quot; data-target=&quot;30&quot; data-suffix=&quot; min&quot;&gt;0&lt;/div&gt;
+          &lt;div class=&quot;mt-1 text-gray-400 text-sm font-medium&quot;&gt;Avg. Fast Delivery&lt;/div&gt;
+          &lt;div class=&quot;mt-1 text-[11px] text-gray-500&quot;&gt;Quick turnaround time&lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;reveal reveal-delay-3 glass-card rounded-2xl p-6 relative overflow-hidden corner-deco&quot;&gt;
+          &lt;div class=&quot;w-12 h-12 rounded-xl bg-[#ffb547]/15 border border-[#ffb547]/30 flex items-center justify-center mb-4&quot;&gt;
+            &lt;i data-lucide=&quot;map-pin&quot; class=&quot;w-6 h-6 text-[#ffb547]&quot;&gt;&lt;/i&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;counter font-display font-extrabold text-4xl sm:text-5xl text-white&quot; data-target=&quot;100&quot; data-suffix=&quot;%&quot;&gt;0&lt;/div&gt;
+          &lt;div class=&quot;mt-1 text-gray-400 text-sm font-medium&quot;&gt;Karachi Coverage&lt;/div&gt;
+          &lt;div class=&quot;mt-1 text-[11px] text-gray-500&quot;&gt;DHA • Clifton &amp; beyond&lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;reveal reveal-delay-4 glass-card rounded-2xl p-6 relative overflow-hidden corner-deco&quot;&gt;
+          &lt;div class=&quot;w-12 h-12 rounded-xl bg-[#ff2e4d]/15 border border-[#ff2e4d]/30 flex items-center justify-center mb-4&quot;&gt;
+            &lt;i data-lucide=&quot;layout-grid&quot; class=&quot;w-6 h-6 text-[#ff2e4d]&quot;&gt;&lt;/i&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;counter font-display font-extrabold text-4xl sm:text-5xl text-white&quot; data-target=&quot;6&quot; data-suffix=&quot;+&quot;&gt;0&lt;/div&gt;
+          &lt;div class=&quot;mt-1 text-gray-400 text-sm font-medium&quot;&gt;Business Services&lt;/div&gt;
+          &lt;div class=&quot;mt-1 text-[11px] text-gray-500&quot;&gt;Multiple delivery types&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;!-- ====== SERVICES ====== --&gt;
+&lt;section id=&quot;services&quot; class=&quot;relative py-20 sm:py-28&quot;&gt;
+  &lt;div class=&quot;max-w-7xl mx-auto px-4 sm:px-6 lg:px-8&quot;&gt;
+    &lt;div class=&quot;text-center max-w-2xl mx-auto reveal&quot;&gt;
+      &lt;div class=&quot;kicker mb-6&quot;&gt;
+        &lt;i data-lucide=&quot;package&quot; class=&quot;w-3 h-3&quot;&gt;&lt;/i&gt;
+        Our Services
+      &lt;/div&gt;
+      &lt;h2 class=&quot;font-display font-extrabold text-3xl sm:text-4xl lg:text-5xl leading-tight tracking-tight&quot;&gt;
+        Delivery solutions for &lt;span class=&quot;text-[#ff2e4d]&quot;&gt;every business&lt;/span&gt;
+      &lt;/h2&gt;
+      &lt;p class=&quot;mt-4 text-gray-400 text-base sm:text-lg&quot;&gt;
+        From restaurants to gift shops — we cover all your delivery needs with speed, care and professionalism.
+      &lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;mt-14 grid sm:grid-cols-2 lg:grid-cols-3 gap-5&quot;&gt;
+      &lt;!-- Restaurant Delivery --&gt;
+      &lt;article class=&quot;service-card reveal reveal-delay-1 glass-card rounded-2xl p-6 relative overflow-hidden&quot;&gt;
+        &lt;div class=&quot;flex items-start justify-between mb-5&quot;&gt;
+          &lt;div class=&quot;w-14 h-14 rounded-xl bg-gradient-to-br from-[#ff2e4d]/20 to-[#ff2e4d]/5 border border-[#ff2e4d]/30 flex items-center justify-center&quot;&gt;
+            &lt;i data-lucide=&quot;utensils&quot; class=&quot;w-7 h-7 text-[#ff2e4d]&quot;&gt;&lt;/i&gt;
+          &lt;/div&gt;
+          &lt;span class=&quot;text-[11px] uppercase tracking-wider text-gray-500 font-semibold&quot;&gt;Food&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;h3 class=&quot;font-display font-bold text-xl mb-2&quot;&gt;Restaurant Delivery&lt;/h3&gt;
+        &lt;p class=&quot;text-gray-400 text-sm leading-relaxed mb-5&quot;&gt;
+          Fast and reliable food delivery from restaurants to customers — keeping flavors fresh and customers happy.
+        &lt;/p&gt;
+        &lt;a href=&quot;#booking&quot; class=&quot;inline-flex items-center gap-2 text-sm font-semibold text-[#ff2e4d] hover:gap-3 transition-all&quot;&gt;
+          Book Now &lt;i data-lucide=&quot;arrow-right&quot; class=&quot;w-4 h-4&quot;&gt;&lt;/i&gt;
+        &lt;/a&gt;
+      &lt;/article&gt;
+
+      &lt;!-- Home Chef Delivery --&gt;
+      &lt;article class=&quot;service-card reveal reveal-delay-2 glass-card rounded-2xl p-6 relative overflow-hidden&quot;&gt;
+        &lt;div class=&quot;flex items-start justify-between mb-5&quot;&gt;
+          &lt;div class=&quot;w-14 h-14 rounded-xl bg-gradient-to-br from-[#ffb547]/20 to-[#ffb547]/5 border border-[#ffb547]/30 flex items-center justify-center&quot;&gt;
+            &lt;i data-lucide=&quot;chef-hat&quot; class=&quot;w-7 h-7 text-[#ffb547]&quot;&gt;&lt;/i&gt;
+          &lt;/div&gt;
+          &lt;span class=&quot;text-[11px] uppercase tracking-wider text-gray-500 font-semibold&quot;&gt;Food&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;h3 class=&quot;font-display font-bold text-xl mb-2&quot;&gt;Home Chef Delivery&lt;/h3&gt;
+        &lt;p class=&quot;text-gray-400 text-sm leading-relaxed mb-5&quot;&gt;
+          Professional delivery service for home chefs and food businesses — helping you grow with reliable delivery.
+        &lt;/p&gt;
+        &lt;a href=&quot;#booking&quot; class=&quot;inline-flex items-center gap-2 text-sm font-semibold text-[#ff2e4d] hover:gap-3 transition-all&quot;&gt;
+          Book Now &lt;i data-lucide=&quot;arrow-right&quot; class=&quot;w-4 h-4&quot;&gt;&lt;/i&gt;
+        &lt;/a&gt;
+      &lt;/article&gt;
+
+      &lt;!-- Coffee Shop Delivery --&gt;
+      &lt;article class=&quot;service-card reveal reveal-delay-3 glass-card rounded-2xl p-6 relative overflow-hidden&quot;&gt;
+        &lt;div class=&quot;flex items-start justify-between mb-5&quot;&gt;
+          &lt;div class=&quot;w-14 h-14 rounded-xl bg-gradient-to-br from-[#a855f7]/20 to-[#a855f7]/5 border border-[#a855f7]/30 flex items-center justify-center&quot;&gt;
+            &lt;i data-lucide=&quot;coffee&quot; class=&quot;w-7 h-7 text-[#a855f7]&quot;&gt;&lt;/i&gt;
+          &lt;/div&gt;
+          &lt;span class=&quot;text-[11px] uppercase tracking-wider text-gray-500 font-semibold&quot;&gt;Beverage&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;h3 class=&quot;font-display font-bold text-xl mb-2&quot;&gt;Coffee Shop Delivery&lt;/h3&gt;
+        &lt;p class=&quot;text-gray-400 text-sm leading-relaxed mb-5&quot;&gt;
+          Quick delivery support for coffee shops and beverage businesses — keeping every cup hot and ready.
+        &lt;/p&gt;
+        &lt;a href=&quot;#booking&quot; class=&quot;inline-flex items-center gap-2 text-sm font-semibold text-[#ff2e4d] hover:gap-3 transition-all&quot;&gt;
+          Book Now &lt;i data-lucide=&quot;arrow-right&quot; class=&quot;w-4 h-4&quot;&gt;&lt;/i&gt;
+        &lt;/a&gt;
+      &lt;/article&gt;
+
+      &lt;!-- Dessert Shop Delivery --&gt;
+      &lt;article class=&quot;service-card reveal reveal-delay-1 glass-card rounded-2xl p-6 relative overflow-hidden&quot;&gt;
+        &lt;div class=&quot;flex items-start justify-between mb-5&quot;&gt;
+          &lt;div class=&quot;w-14 h-14 rounded-xl bg-gradient-to-br from-[#ec4899]/20 to-[#ec4899]/5 border border-[#ec4899]/30 flex items-center justify-center&quot;&gt;
+            &lt;i data-lucide=&quot;cake&quot; class=&quot;w-7 h-7 text-[#ec4899]&quot;&gt;&lt;/i&gt;
+          &lt;/div&gt;
+          &lt;span class=&quot;text-[11px] uppercase tracking-wider text-gray-500 font-semibold&quot;&gt;Sweet&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;h3 class=&quot;font-display font-bold text-xl mb-2&quot;&gt;Dessert Shop Delivery&lt;/h3&gt;
+        &lt;p class=&quot;text-gray-400 text-sm leading-relaxed mb-5&quot;&gt;
+          Safe and fast delivery for cakes, desserts and sweet items — handled with extra care and protection.
+        &lt;/p&gt;
+        &lt;a href=&quot;#booking&quot; class=&quot;inline-flex items-center gap-2 text-sm font-semibold text-[#ff2e4d] hover:gap-3 transition-all&quot;&gt;
+          Book Now &lt;i data-lucide=&quot;arrow-right&quot; class=&quot;w-4 h-4&quot;&gt;&lt;/i&gt;
+        &lt;/a&gt;
+      &lt;/article&gt;
+
+      &lt;!-- Gift Shop Delivery --&gt;
+      &lt;article class=&quot;service-card reveal reveal-delay-2 glass-card rounded-2xl p-6 relative overflow-hidden&quot;&gt;
+        &lt;div class=&quot;flex items-start justify-between mb-5&quot;&gt;
+          &lt;div class=&quot;w-14 h-14 rounded-xl bg-gradient-to-br from-[#00e676]/20 to-[#00e676]/5 border border-[#00e676]/30 flex items-center justify-center&quot;&gt;
+            &lt;i data-lucide=&quot;gift&quot; class=&quot;w-7 h-7 text-[#00e676]&quot;&gt;&lt;/i&gt;
+          &lt;/div&gt;
+          &lt;span class=&quot;text-[11px] uppercase tracking-wider text-gray-500 font-semibold&quot;&gt;Surprise&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;h3 class=&quot;font-display font-bold text-xl mb-2&quot;&gt;Gift Shop Delivery&lt;/h3&gt;
+        &lt;p class=&quot;text-gray-400 text-sm leading-relaxed mb-5&quot;&gt;
+          Reliable gift and surprise delivery across Karachi — making every special moment even more memorable.
+        &lt;/p&gt;
+        &lt;a href=&quot;#booking&quot; class=&quot;inline-flex items-center gap-2 text-sm font-semibold text-[#ff2e4d] hover:gap-3 transition-all&quot;&gt;
+          Book Now &lt;i data-lucide=&quot;arrow-right&quot; class=&quot;w-4 h-4&quot;&gt;&lt;/i&gt;
+        &lt;/a&gt;
+      &lt;/article&gt;
+
+      &lt;!-- Delivery Boy Service --&gt;
+      &lt;article class=&quot;service-card reveal reveal-delay-3 glass-card rounded-2xl p-6 relative overflow-hidden&quot;&gt;
+        &lt;div class=&quot;flex items-start justify-between mb-5&quot;&gt;
+          &lt;div class=&quot;w-14 h-14 rounded-xl bg-gradient-to-br from-[#ff2e4d]/20 to-[#ff2e4d]/5 border border-[#ff2e4d]/30 flex items-center justify-center&quot;&gt;
+            &lt;i data-lucide=&quot;bike&quot; class=&quot;w-7 h-7 text-[#ff2e4d]&quot;&gt;&lt;/i&gt;
+          &lt;/div&gt;
+          &lt;span class=&quot;text-[11px] uppercase tracking-wider text-gray-500 font-semibold&quot;&gt;Pro&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;h3 class=&quot;font-display font-bold text-xl mb-2&quot;&gt;Delivery Boy Service&lt;/h3&gt;
+        &lt;p class=&quot;text-gray-400 text-sm leading-relaxed mb-5&quot;&gt;
+          Professional delivery boys available for business delivery requirements — daily, weekly or monthly basis.
+        &lt;/p&gt;
+        &lt;a href=&quot;#booking&quot; class=&quot;inline-flex items-center gap-2 text-sm font-semibold text-[#ff2e4d] hover:gap-3 transition-all&quot;&gt;
+          Book Now &lt;i data-lucide=&quot;arrow-right&quot; class=&quot;w-4 h-4&quot;&gt;&lt;/i&gt;
+        &lt;/a&gt;
+      &lt;/article&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;!-- ====== HOW IT WORKS ====== --&gt;
+&lt;section id=&quot;how&quot; class=&quot;relative py-20 sm:py-28 overflow-hidden&quot;&gt;
+  &lt;div class=&quot;max-w-7xl mx-auto px-4 sm:px-6 lg:px-8&quot;&gt;
+    &lt;div class=&quot;text-center max-w-2xl mx-auto reveal&quot;&gt;
+      &lt;div class=&quot;kicker mb-6&quot;&gt;
+        &lt;i data-lucide=&quot;route&quot; class=&quot;w-3 h-3&quot;&gt;&lt;/i&gt;
+        How It Works
+      &lt;/div&gt;
+      &lt;h2 class=&quot;font-display font-extrabold text-3xl sm:text-4xl lg:text-5xl leading-tight tracking-tight&quot;&gt;
+        Three simple steps to &lt;span class=&quot;text-[#ff2e4d]&quot;&gt;fast delivery&lt;/span&gt;
+      &lt;/h2&gt;
+      &lt;p class=&quot;mt-4 text-gray-400 text-base sm:text-lg&quot;&gt;
+        From pickup to drop-off — a smooth process designed for speed and reliability.
+      &lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;!-- Steps with connecting path --&gt;
+    &lt;div class=&quot;mt-16 relative&quot;&gt;
+      &lt;!-- Connecting path (desktop) --&gt;
+      &lt;svg class=&quot;absolute top-12 left-0 right-0 w-full h-2 hidden lg:block&quot; preserveAspectRatio=&quot;none&quot; viewBox=&quot;0 0 1000 10&quot; fill=&quot;none&quot;&gt;
+        &lt;line x1=&quot;0&quot; y1=&quot;5&quot; x2=&quot;1000&quot; y2=&quot;5&quot; stroke=&quot;rgba(255,46,77,0.2)&quot; stroke-width=&quot;2&quot;/&gt;
+        &lt;line x1=&quot;0&quot; y1=&quot;5&quot; x2=&quot;1000&quot; y2=&quot;5&quot; stroke=&quot;#ff2e4d&quot; stroke-width=&quot;2&quot; class=&quot;flow-path&quot;/&gt;
+      &lt;/svg&gt;
+
+      &lt;!-- Traveling bike icon (desktop) --&gt;
+      &lt;div class=&quot;travel-bike absolute top-6 hidden lg:block&quot;&gt;
+        &lt;div class=&quot;w-12 h-12 rounded-full bg-[#0c0c14] border-2 border-[#ff2e4d] flex items-center justify-center shadow-lg shadow-red-500/40&quot;&gt;
+          &lt;i data-lucide=&quot;bike&quot; class=&quot;w-6 h-6 text-[#ff2e4d]&quot;&gt;&lt;/i&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;div class=&quot;grid lg:grid-cols-3 gap-8 lg:gap-6 relative&quot;&gt;
+        &lt;!-- Step 1 --&gt;
+        &lt;div class=&quot;reveal text-center lg:text-left&quot;&gt;
+          &lt;div class=&quot;flex lg:block flex-col lg:items-start items-center gap-4&quot;&gt;
+            &lt;div class=&quot;relative shrink-0&quot;&gt;
+              &lt;div class=&quot;step-circle w-24 h-24 rounded-full flex items-center justify-center&quot;&gt;
+                &lt;i data-lucide=&quot;phone-call&quot; class=&quot;w-10 h-10 text-[#ff2e4d]&quot;&gt;&lt;/i&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;absolute -top-2 -right-2 w-8 h-8 rounded-full bg-[#ff2e4d] text-white font-display font-bold text-sm flex items-center justify-center shadow-lg&quot;&gt;1&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div&gt;
+              &lt;h3 class=&quot;font-display font-bold text-xl mb-2&quot;&gt;Contact Us&lt;/h3&gt;
+              &lt;p class=&quot;text-gray-400 text-sm leading-relaxed&quot;&gt;
+                Call or WhatsApp us and provide your delivery details — pickup location, drop-off and package type.
+              &lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;!-- Step 2 --&gt;
+        &lt;div class=&quot;reveal reveal-delay-2 text-center lg:text-left&quot;&gt;
+          &lt;div class=&quot;flex lg:block flex-col lg:items-start items-center gap-4&quot;&gt;
+            &lt;div class=&quot;relative shrink-0&quot;&gt;
+              &lt;div class=&quot;step-circle w-24 h-24 rounded-full flex items-center justify-center&quot;&gt;
+                &lt;i data-lucide=&quot;package&quot; class=&quot;w-10 h-10 text-[#ff2e4d]&quot;&gt;&lt;/i&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;absolute -top-2 -right-2 w-8 h-8 rounded-full bg-[#ff2e4d] text-white font-display font-bold text-sm flex items-center justify-center shadow-lg&quot;&gt;2&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div&gt;
+              &lt;h3 class=&quot;font-display font-bold text-xl mb-2&quot;&gt;Pickup&lt;/h3&gt;
+              &lt;p class=&quot;text-gray-400 text-sm leading-relaxed&quot;&gt;
+                Our delivery rider picks up your food, package, gift or order from your location quickly and carefully.
+              &lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;!-- Step 3 --&gt;
+        &lt;div class=&quot;reveal reveal-delay-3 text-center lg:text-left&quot;&gt;
+          &lt;div class=&quot;flex lg:block flex-col lg:items-start items-center gap-4&quot;&gt;
+            &lt;div class=&quot;relative shrink-0&quot;&gt;
+              &lt;div class=&quot;step-circle w-24 h-24 rounded-full flex items-center justify-center&quot;&gt;
+                &lt;i data-lucide=&quot;package-check&quot; class=&quot;w-10 h-10 text-[#00e676]&quot;&gt;&lt;/i&gt;
+              &lt;/div&gt;
+              &lt;div class=&quot;absolute -top-2 -right-2 w-8 h-8 rounded-full bg-[#00e676] text-[#062b14] font-display font-bold text-sm flex items-center justify-center shadow-lg&quot;&gt;3&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div&gt;
+              &lt;h3 class=&quot;font-display font-bold text-xl mb-2&quot;&gt;Fast Delivery&lt;/h3&gt;
+              &lt;p class=&quot;text-gray-400 text-sm leading-relaxed&quot;&gt;
+                Your order is delivered safely and quickly to the destination — with live updates along the way.
+              &lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;!-- ====== ZONES &amp; CHARGES (NEW SECTION) ====== --&gt;
+&lt;section id=&quot;zones&quot; class=&quot;relative py-20 sm:py-28 overflow-hidden&quot;&gt;
+  &lt;!-- Ambient zone background --&gt;
+  &lt;div class=&quot;absolute inset-0 pointer-events-none opacity-40&quot;&gt;
+    &lt;div class=&quot;absolute top-20 left-[5%] w-72 h-72 glow-blob bg-[#ff2e4d]/10 rounded-full&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;absolute bottom-20 right-[5%] w-72 h-72 glow-blob bg-[#00e676]/8 rounded-full&quot;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;!-- Floating pins --&gt;
+  &lt;div class=&quot;absolute top-32 left-[8%] hidden md:block float-soft&quot;&gt;
+    &lt;div class=&quot;relative&quot;&gt;
+      &lt;span class=&quot;absolute inset-0 ping-ring rounded-full bg-[#ff2e4d]/30&quot;&gt;&lt;/span&gt;
+      &lt;div class=&quot;relative w-3 h-3 bg-[#ff2e4d] rounded-full&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;absolute bottom-40 right-[10%] hidden md:block float-soft&quot; style=&quot;animation-delay:1.5s&quot;&gt;
+    &lt;div class=&quot;relative&quot;&gt;
+      &lt;span class=&quot;absolute inset-0 ping-ring rounded-full bg-[#00e676]/30&quot; style=&quot;animation-delay:1.5s&quot;&gt;&lt;/span&gt;
+      &lt;div class=&quot;relative w-3 h-3 bg-[#00e676] rounded-full&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10&quot;&gt;
+    &lt;div class=&quot;text-center max-w-2xl mx-auto reveal&quot;&gt;
+      &lt;div class=&quot;kicker mb-6&quot;&gt;
+        &lt;i data-lucide=&quot;map&quot; class=&quot;w-3 h-3&quot;&gt;&lt;/i&gt;
+        Zones &amp; Charges
+      &lt;/div&gt;
+      &lt;h2 class=&quot;font-display font-extrabold text-3xl sm:text-4xl lg:text-5xl leading-tight tracking-tight&quot;&gt;
+        Delivery Zones &amp; &lt;span class=&quot;text-[#ff2e4d]&quot;&gt;Flat Charges&lt;/span&gt;
+      &lt;/h2&gt;
+      &lt;p class=&quot;mt-4 text-gray-400 text-base sm:text-lg&quot;&gt;
+        Transparent delivery charges based on your delivery area.
+      &lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;!-- Animated Delivery Route Banner --&gt;
+    &lt;div class=&quot;mt-14 relative h-16 sm:h-20 reveal&quot;&gt;
+      &lt;svg class=&quot;absolute inset-0 w-full h-full&quot; preserveAspectRatio=&quot;none&quot; viewBox=&quot;0 0 1200 80&quot; fill=&quot;none&quot;&gt;
+        &lt;!-- Dotted route path --&gt;
+        &lt;path id=&quot;zoneRoute&quot; d=&quot;M 60 40 Q 300 10, 600 40 T 1140 40&quot; stroke=&quot;rgba(255,46,77,0.3)&quot; stroke-width=&quot;2&quot; fill=&quot;none&quot; stroke-dasharray=&quot;6 6&quot;/&gt;
+        &lt;path d=&quot;M 60 40 Q 300 10, 600 40 T 1140 40&quot; stroke=&quot;#ff2e4d&quot; stroke-width=&quot;2&quot; fill=&quot;none&quot; stroke-dasharray=&quot;6 6&quot; class=&quot;flow-path&quot;/&gt;
+      &lt;/svg&gt;
+      &lt;!-- Pickup point --&gt;
+      &lt;div class=&quot;absolute left-[2%] top-1/2 -translate-y-1/2 flex flex-col items-center&quot;&gt;
+        &lt;div class=&quot;w-10 h-10 rounded-full bg-[#ff2e4d]/15 border border-[#ff2e4d]/40 flex items-center justify-center&quot;&gt;
+          &lt;i data-lucide=&quot;package&quot; class=&quot;w-5 h-5 text-[#ff2e4d]&quot;&gt;&lt;/i&gt;
+        &lt;/div&gt;
+        &lt;span class=&quot;text-[10px] text-gray-500 mt-1 uppercase tracking-wider hidden sm:block&quot;&gt;Pickup&lt;/span&gt;
+      &lt;/div&gt;
+      &lt;!-- Moving Bike --&gt;
+      &lt;div id=&quot;zoneBike&quot; class=&quot;absolute top-1/2 -translate-y-1/2&quot; style=&quot;left: 0;&quot;&gt;
+        &lt;div class=&quot;w-10 h-10 rounded-full bg-[#0c0c14] border-2 border-[#ff2e4d] flex items-center justify-center shadow-lg shadow-red-500/40&quot;&gt;
+          &lt;i data-lucide=&quot;bike&quot; class=&quot;w-5 h-5 text-[#ff2e4d]&quot;&gt;&lt;/i&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;!-- Drop-off point --&gt;
+      &lt;div class=&quot;absolute right-[2%] top-1/2 -translate-y-1/2 flex flex-col items-center&quot;&gt;
+        &lt;div class=&quot;w-10 h-10 rounded-full bg-[#00e676]/15 border border-[#00e676]/40 flex items-center justify-center&quot;&gt;
+          &lt;i data-lucide=&quot;map-pin&quot; class=&quot;w-5 h-5 text-[#00e676]&quot;&gt;&lt;/i&gt;
+        &lt;/div&gt;
+        &lt;span class=&quot;text-[10px] text-gray-500 mt-1 uppercase tracking-wider hidden sm:block&quot;&gt;Delivered&lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!-- Zone Cards Grid --&gt;
+    &lt;div class=&quot;mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-5&quot;&gt;
+      
+      &lt;!-- ZONE A --&gt;
+      &lt;article class=&quot;zone-card reveal reveal-delay-1 rounded-2xl p-6&quot;&gt;
+        &lt;div class=&quot;flex items-center justify-between mb-5&quot;&gt;
+          &lt;div class=&quot;zone-badge px-3 py-1.5 rounded-lg text-xs font-bold tracking-wider uppercase&quot;&gt;Zone A&lt;/div&gt;
+          &lt;i data-lucide=&quot;map-pin&quot; class=&quot;w-5 h-5 text-[#ff2e4d]&quot;&gt;&lt;/i&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;mb-4&quot;&gt;
+          &lt;div class=&quot;text-xs text-gray-500 uppercase tracking-wider mb-1&quot;&gt;Starting From&lt;/div&gt;
+          &lt;div class=&quot;price-num text-4xl sm:text-5xl&quot;&gt;
+            &lt;span class=&quot;text-lg align-top&quot;&gt;PKR&lt;/span&gt; &lt;span class=&quot;zone-price&quot; data-target=&quot;160&quot;&gt;0&lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;button class=&quot;toggle-areas w-full flex items-center justify-between text-sm font-semibold text-gray-300 hover:text-white py-2 border-t border-white/5&quot;&gt;
+          &lt;span class=&quot;flex items-center gap-2&quot;&gt;&lt;i data-lucide=&quot;list&quot; class=&quot;w-4 h-4 text-[#ff2e4d]&quot;&gt;&lt;/i&gt; View Areas&lt;/span&gt;
+          &lt;i data-lucide=&quot;chevron-down&quot; class=&quot;w-4 h-4 chevron&quot;&gt;&lt;/i&gt;
+        &lt;/button&gt;
+        &lt;div class=&quot;areas-list&quot;&gt;
+          &lt;div class=&quot;flex flex-wrap gap-2 pt-3&quot;&gt;
+            &lt;span class=&quot;area-pill px-3 py-1.5 rounded-lg text-xs text-gray-300&quot;&gt;DHA — All Phases&lt;/span&gt;
+            &lt;span class=&quot;area-pill px-3 py-1.5 rounded-lg text-xs text-gray-300&quot;&gt;Clifton — All Blocks&lt;/span&gt;
+            &lt;span class=&quot;area-pill px-3 py-1.5 rounded-lg text-xs text-gray-300&quot;&gt;Frere Town&lt;/span&gt;
+            &lt;span class=&quot;area-pill px-3 py-1.5 rounded-lg text-xs text-gray-300&quot;&gt;Bath Island&lt;/span&gt;
+            &lt;span class=&quot;area-pill px-3 py-1.5 rounded-lg text-xs text-gray-300&quot;&gt;Civil Lines&lt;/span&gt;
+            &lt;span class=&quot;area-pill px-3 py-1.5 rounded-lg text-xs text-gray-300&quot;&gt;Shahrah-e-Faisal side&lt;/span&gt;
+            &lt;span class=&quot;area-pill px-3 py-1.5 rounded-lg text-xs text-gray-300&quot;&gt;Cantt&lt;/span&gt;
+            &lt;span class=&quot;area-pill px-3 py-1.5 rounded-lg text-xs text-gray-300&quot;&gt;Jinnah Hospital area&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;mt-3 p-3 rounded-lg bg-[#ff2e4d]/5 border border-[#ff2e4d]/15&quot;&gt;
+            &lt;div class=&quot;text-[11px] text-[#ff2e4d] font-bold uppercase tracking-wider mb-1&quot;&gt;Extra Radius Zone&lt;/div&gt;
+            &lt;div class=&quot;flex flex-wrap gap-2&quot;&gt;
+              &lt;span class=&quot;area-pill px-3 py-1.5 rounded-lg text-xs text-gray-300&quot;&gt;Phase 8&lt;/span&gt;
+              &lt;span class=&quot;area-pill px-3 py-1.5 rounded-lg text-xs text-gray-300&quot;&gt;Creek Vista&lt;/span&gt;
+              &lt;span class=&quot;area-pill px-3 py-1.5 rounded-lg text-xs text-gray-300&quot;&gt;Emaar&lt;/span&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;a href=&quot;https://wa.me/923007029197?text=I%20want%20to%20book%20a%20delivery%20in%20Zone%20A&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; class=&quot;btn-green mt-5 w-full px-4 py-3 rounded-xl font-bold text-sm flex items-center justify-center gap-2&quot;&gt;
+          &lt;i data-lucide=&quot;message-circle&quot; class=&quot;w-4 h-4&quot;&gt;&lt;/i&gt; Book Delivery
+        &lt;/a&gt;
+        &lt;p class=&quot;text-[10px] text-gray-500 mt-2 text-center&quot;&gt;Final charges may vary depending on exact pickup and delivery distance.&lt;/p&gt;
+      &lt;/article&gt;
+
+      &lt;!-- ZONE B --&gt;
+      &lt;article class=&quot;zone-card reveal reveal-delay-2 rounded-2xl p-6&quot;&gt;
+        &lt;div class=&quot;flex items-center justify-between mb-5&quot;&gt;
+          &lt;div class=&quot;zone-badge px-3 py-1.5 rounded-lg text-xs font-bold tracking-wider uppercase&quot;&gt;Zone B&lt;/div&gt;
+          &lt;i data-lucide=&quot;map-pin&quot; class=&quot;w-5 h-5 text-[#ff2e4d]&quot;&gt;&lt;/i&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;mb-4&quot;&gt;
+          &lt;div class=&quot;text-xs text-gray-500 uppercase tracking-wider mb-1&quot;&gt;Flat Charges&lt;/div&gt;
+          &lt;div class=&quot;price-num text-4xl sm:text-5xl&quot;&gt;
+            &lt;span class=&quot;text-lg align-top&quot;&gt;PKR&lt;/span&gt; &lt;span class=&quot;zone-price&quot; data-target=&quot;260&quot;&gt;0&lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;button class=&quot;toggle-areas w-full flex items-center justify-between text-sm font-semibold text-gray-300 hover:text-white py-2 border-t border-white/5&quot;&gt;
+          &lt;span class=&quot;flex items-center gap-2&quot;&gt;&lt;i data-lucide=&quot;list&quot; class=&quot;w-4 h-4 text-[#ff2e4d]&quot;&gt;&lt;/i&gt; View Areas&lt;/span&gt;
+          &lt;i data-lucide=&quot;chevron-down&quot; class=&quot;w-4 h-4 chevron&quot;&gt;&lt;/i&gt;
+        &lt;/button&gt;
+        &lt;div class=&quot;areas-list&quot;&gt;
+          &lt;div class=&quot;flex flex-wrap gap-2 pt-3&quot;&gt;
+            &lt;span class=&quot;area-pill px-3 py-1.5 rounded-lg text-xs text-gray-300&quot;&gt;Lalazar&lt;/span&gt;
+            &lt;span class=&quot;area-pill px-3 py-1.5 rounded-lg text-xs text-gray-300&quot;&gt;Defence View&lt;/span&gt;
+            &lt;span class=&quot;area-pill px-3 py-1.5 rounded-lg text-xs text-gray-300&quot;&gt;Jinnah Heights&lt;/span&gt;
+            &lt;span class=&quot;area-pill px-3 py-1.5 rounded-lg text-xs text-gray-300&quot;&gt;Lucky Star&lt;/span&gt;
+            &lt;span class=&quot;area-pill px-3 py-1.5 rounded-lg text-xs text-gray-300&quot;&gt;Mehmoodabad&lt;/span&gt;
+            &lt;span class=&quot;area-pill px-3 py-1.5 rounded-lg text-xs text-gray-300&quot;&gt;Saddar&lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;a href=&quot;https://wa.me/923007029197?text=I%20want%20to%20book%20a%20delivery%20in%20Zone%20B&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; class=&quot;btn-green mt-5 w-full px-4 py-3 rounded-xl font-bold text-sm flex items-center justify-center gap-2&quot;&gt;
+          &lt;i data-lucide=&quot;message-circle&quot; class=&quot;w-4 h-4&quot;&gt;&lt;/i&gt; Book Delivery
+        &lt;/a&gt;
+      &lt;/article&gt;
+
+      &lt;!-- ZONE C --&gt;
+      &lt;article class=&quot;zone-card reveal reveal-delay-3 rounded-2xl p-6&quot;&gt;
+        &lt;div class=&quot;flex items-center justify-between mb-5&quot;&gt;
+          &lt;div class=&quot;zone-badge px-3 py-1.5 rounded-lg text-xs font-bold tracking-wider uppercase&quot;&gt;Zone C&lt;/div&gt;
+          &lt;i data-lucide=&quot;map-pin&quot; class=&quot;w-5 h-5 text-[#ff2e4d]&quot;&gt;&lt;/i&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;mb-4&quot;&gt;
+          &lt;div class=&quot;text-xs text-gray-500 uppercase tracking-wider mb-1&quot;&gt;Flat Charges&lt;/div&gt;
+          &lt;div class=&quot;price-num text-4xl sm:text-5xl&quot;&gt;
+            &lt;span class=&quot;text-lg align-top&quot;&gt;PKR&lt;/span&gt; &lt;span class=&quot;zone-price&quot; data-target=&quot;360&quot;&gt;0&lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;button class=&quot;toggle-areas w-full flex items-center justify-between text-sm font-semibold text-gray-300 hover:text-white py-2 border-t border-white/5&quot;&gt;
+          &lt;span class=&quot;flex items-center gap-2&quot;&gt;&lt;i data-lucide=&quot;list&quot; class=&quot;w-4 h-4 text-[#ff2e4d]&quot;&gt;&lt;/i&gt; View Areas&lt;/span&gt;
+          &lt;i data-lucide=&quot;chevron-down&quot; class=&quot;w-4 h-4 chevron&quot;&gt;&lt;/i&gt;
+        &lt;/button&gt;
+        &lt;div class=&quot;areas-list&quot;&gt;
+          &lt;div class=&quot;flex flex-wrap gap-2 pt-3&quot;&gt;
+            &lt;span class=&quot;area-pill px-3 py-1.5 rounded-lg text-xs text-gray-300&quot;&gt;Sindhi Muslim Society&lt;/span&gt;
+            &lt;span class=&quot;area-pill px-3 py-1.5 rounded-lg text-xs text-gray-300&quot;&gt;PECHS&lt;/span&gt;
+            &lt;span class=&quot;area-pill px-3 py-1.5 rounded-lg text-xs text-gray-300&quot;&gt;Kashmir Road&lt;/span&gt;
+            &lt;span class=&quot;area-pill px-3 py-1.5 rounded-lg text-xs text-gray-300&quot;&gt;Jamshed Road&lt;/span&gt;
+            &lt;span class=&quot;area-pill px-3 py-1.5 rounded-lg text-xs text-gray-300&quot;&gt;Garden East&lt;/span&gt;
+            &lt;span class=&quot;area-pill px-3 py-1.5 rounded-lg text-xs text-gray-300&quot;&gt;Bahadurabad&lt;/span&gt;
+            &lt;span class=&quot;area-pill px-3 py-1.5 rounded-lg text-xs text-gray-300&quot;&gt;Sharifabad&lt;/span&gt;
+            &lt;span class=&quot;area-pill px-3 py-1.5 rounded-lg text-xs text-gray-300&quot;&gt;M. Ali Society&lt;/span&gt;
+            &lt;span class=&quot;area-pill px-3 py-1.5 rounded-lg text-xs text-gray-300&quot;&gt;KDA Scheme 1&lt;/span&gt;
+            &lt;span class=&quot;area-pill px-3 py-1.5 rounded-lg text-xs text-gray-300&quot;&gt;Shahrah-e-Faisal (Karsaz)&lt;/span&gt;
+            &lt;span class=&quot;area-pill px-3 py-1.5 rounded-lg text-xs text-gray-300&quot;&gt;Khairabad&lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;a href=&quot;https://wa.me/923007029197?text=I%20want%20to%20book%20a%20delivery%20in%20Zone%20C&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; class=&quot;btn-green mt-5 w-full px-4 py-3 rounded-xl font-bold text-sm flex items-center justify-center gap-2&quot;&gt;
+          &lt;i data-lucide=&quot;message-circle&quot; class=&quot;w-4 h-4&quot;&gt;&lt;/i&gt; Book Delivery
+        &lt;/a&gt;
+      &lt;/article&gt;
+
+      &lt;!-- ZONE D --&gt;
+      &lt;article class=&quot;zone-card reveal reveal-delay-1 rounded-2xl p-6&quot;&gt;
+        &lt;div class=&quot;flex items-center justify-between mb-5&quot;&gt;
+          &lt;div class=&quot;zone-badge px-3 py-1.5 rounded-lg text-xs font-bold tracking-wider uppercase&quot;&gt;Zone D&lt;/div&gt;
+          &lt;i data-lucide=&quot;map-pin&quot; class=&quot;w-5 h-5 text-[#ff2e4d]&quot;&gt;&lt;/i&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;mb-4&quot;&gt;
+          &lt;div class=&quot;text-xs text-gray-500 uppercase tracking-wider mb-1&quot;&gt;Flat Charges&lt;/div&gt;
+          &lt;div class=&quot;price-num text-4xl sm:text-5xl&quot;&gt;
+            &lt;span class=&quot;text-lg align-top&quot;&gt;PKR&lt;/span&gt; &lt;span class=&quot;zone-price&quot; data-target=&quot;460&quot;&gt;0&lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;button class=&quot;toggle-areas w-full flex items-center justify-between text-sm font-semibold text-gray-300 hover:text-white py-2 border-t border-white/5&quot;&gt;
+          &lt;span class=&quot;flex items-center gap-2&quot;&gt;&lt;i data-lucide=&quot;list&quot; class=&quot;w-4 h-4 text-[#ff2e4d]&quot;&gt;&lt;/i&gt; View Areas&lt;/span&gt;
+          &lt;i data-lucide=&quot;chevron-down&quot; class=&quot;w-4 h-4 chevron&quot;&gt;&lt;/i&gt;
+        &lt;/button&gt;
+        &lt;div class=&quot;areas-list&quot;&gt;
+          &lt;div class=&quot;flex flex-wrap gap-2 pt-3&quot;&gt;
+            &lt;span class=&quot;area-pill px-3 py-1.5 rounded-lg text-xs text-gray-300&quot;&gt;Korangi&lt;/span&gt;
+            &lt;span class=&quot;area-pill px-3 py-1.5 rounded-lg text-xs text-gray-300&quot;&gt;Nishtar Road&lt;/span&gt;
+            &lt;span class=&quot;area-pill px-3 py-1.5 rounded-lg text-xs text-gray-300&quot;&gt;Dalmia&lt;/span&gt;
+            &lt;span class=&quot;area-pill px-3 py-1.5 rounded-lg text-xs text-gray-300&quot;&gt;Askari 4&lt;/span&gt;
+            &lt;span class=&quot;area-pill px-3 py-1.5 rounded-lg text-xs text-gray-300&quot;&gt;Garden West&lt;/span&gt;
+            &lt;span class=&quot;area-pill px-3 py-1.5 rounded-lg text-xs text-gray-300&quot;&gt;PNS Haider&lt;/span&gt;
+            &lt;span class=&quot;area-pill px-3 py-1.5 rounded-lg text-xs text-gray-300&quot;&gt;PIB Colony&lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;a href=&quot;https://wa.me/923007029197?text=I%20want%20to%20book%20a%20delivery%20in%20Zone%20D&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; class=&quot;btn-green mt-5 w-full px-4 py-3 rounded-xl font-bold text-sm flex items-center justify-center gap-2&quot;&gt;
+          &lt;i data-lucide=&quot;message-circle&quot; class=&quot;w-4 h-4&quot;&gt;&lt;/i&gt; Book Delivery
+        &lt;/a&gt;
+      &lt;/article&gt;
+
+      &lt;!-- ZONE E --&gt;
+      &lt;article class=&quot;zone-card reveal reveal-delay-2 rounded-2xl p-6&quot;&gt;
+        &lt;div class=&quot;flex items-center justify-between mb-5&quot;&gt;
+          &lt;div class=&quot;zone-badge px-3 py-1.5 rounded-lg text-xs font-bold tracking-wider uppercase&quot;&gt;Zone E&lt;/div&gt;
+          &lt;i data-lucide=&quot;map-pin&quot; class=&quot;w-5 h-5 text-[#ff2e4d]&quot;&gt;&lt;/i&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;mb-4&quot;&gt;
+          &lt;div class=&quot;text-xs text-gray-500 uppercase tracking-wider mb-1&quot;&gt;Radius / Flat Charges&lt;/div&gt;
+          &lt;div class=&quot;price-num text-4xl sm:text-5xl&quot;&gt;
+            &lt;span class=&quot;text-lg align-top&quot;&gt;PKR&lt;/span&gt; &lt;span class=&quot;zone-price&quot; data-target=&quot;560&quot;&gt;0&lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;button class=&quot;toggle-areas w-full flex items-center justify-between text-sm font-semibold text-gray-300 hover:text-white py-2 border-t border-white/5&quot;&gt;
+          &lt;span class=&quot;flex items-center gap-2&quot;&gt;&lt;i data-lucide=&quot;list&quot; class=&quot;w-4 h-4 text-[#ff2e4d]&quot;&gt;&lt;/i&gt; View Areas&lt;/span&gt;
+          &lt;i data-lucide=&quot;chevron-down&quot; class=&quot;w-4 h-4 chevron&quot;&gt;&lt;/i&gt;
+        &lt;/button&gt;
+        &lt;div class=&quot;areas-list&quot;&gt;
+          &lt;div class=&quot;flex flex-wrap gap-2 pt-3&quot;&gt;
+            &lt;span class=&quot;area-pill px-3 py-1.5 rounded-lg text-xs text-gray-300&quot;&gt;Gulshan-e-Iqbal&lt;/span&gt;
+            &lt;span class=&quot;area-pill px-3 py-1.5 rounded-lg text-xs text-gray-300&quot;&gt;Gulistan-e-Johar&lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;a href=&quot;https://wa.me/923007029197?text=I%20want%20to%20book%20a%20delivery%20in%20Zone%20E&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; class=&quot;btn-green mt-5 w-full px-4 py-3 rounded-xl font-bold text-sm flex items-center justify-center gap-2&quot;&gt;
+          &lt;i data-lucide=&quot;message-circle&quot; class=&quot;w-4 h-4&quot;&gt;&lt;/i&gt; Book Delivery
+        &lt;/a&gt;
+      &lt;/article&gt;
+
+      &lt;!-- ZONE F --&gt;
+      &lt;article class=&quot;zone-card reveal reveal-delay-3 rounded-2xl p-6&quot;&gt;
+        &lt;div class=&quot;flex items-center justify-between mb-5&quot;&gt;
+          &lt;div class=&quot;zone-badge px-3 py-1.5 rounded-lg text-xs font-bold tracking-wider uppercase&quot;&gt;Zone F&lt;/div&gt;
+          &lt;i data-lucide=&quot;map-pin&quot; class=&quot;w-5 h-5 text-[#ff2e4d]&quot;&gt;&lt;/i&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;mb-4&quot;&gt;
+          &lt;div class=&quot;text-xs text-gray-500 uppercase tracking-wider mb-1&quot;&gt;Flat Charges&lt;/div&gt;
+          &lt;div class=&quot;price-num text-4xl sm:text-5xl&quot;&gt;
+            &lt;span class=&quot;text-lg align-top&quot;&gt;PKR&lt;/span&gt; &lt;span class=&quot;zone-price&quot; data-target=&quot;560&quot;&gt;0&lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;button class=&quot;toggle-areas w-full flex items-center justify-between text-sm font-semibold text-gray-300 hover:text-white py-2 border-t border-white/5&quot;&gt;
+          &lt;span class=&quot;flex items-center gap-2&quot;&gt;&lt;i data-lucide=&quot;list&quot; class=&quot;w-4 h-4 text-[#ff2e4d]&quot;&gt;&lt;/i&gt; View Areas&lt;/span&gt;
+          &lt;i data-lucide=&quot;chevron-down&quot; class=&quot;w-4 h-4 chevron&quot;&gt;&lt;/i&gt;
+        &lt;/button&gt;
+        &lt;div class=&quot;areas-list&quot;&gt;
+          &lt;div class=&quot;flex flex-wrap gap-2 pt-3&quot;&gt;
+            &lt;span class=&quot;area-pill px-3 py-1.5 rounded-lg text-xs text-gray-300&quot;&gt;Nazimabad&lt;/span&gt;
+            &lt;span class=&quot;area-pill px-3 py-1.5 rounded-lg text-xs text-gray-300&quot;&gt;North Nazimabad&lt;/span&gt;
+            &lt;span class=&quot;area-pill px-3 py-1.5 rounded-lg text-xs text-gray-300&quot;&gt;Sindhi Muslim&lt;/span&gt;
+            &lt;span class=&quot;area-pill px-3 py-1.5 rounded-lg text-xs text-gray-300&quot;&gt;FB Area&lt;/span&gt;
+            &lt;span class=&quot;area-pill px-3 py-1.5 rounded-lg text-xs text-gray-300&quot;&gt;Liaquatabad&lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;a href=&quot;https://wa.me/923007029197?text=I%20want%20to%20book%20a%20delivery%20in%20Zone%20F&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; class=&quot;btn-green mt-5 w-full px-4 py-3 rounded-xl font-bold text-sm flex items-center justify-center gap-2&quot;&gt;
+          &lt;i data-lucide=&quot;message-circle&quot; class=&quot;w-4 h-4&quot;&gt;&lt;/i&gt; Book Delivery
+        &lt;/a&gt;
+      &lt;/article&gt;
+
+      &lt;!-- ZONE G --&gt;
+      &lt;article class=&quot;zone-card reveal reveal-delay-1 rounded-2xl p-6 sm:col-span-2 lg:col-span-1&quot;&gt;
+        &lt;div class=&quot;flex items-center justify-between mb-5&quot;&gt;
+          &lt;div class=&quot;zone-badge px-3 py-1.5 rounded-lg text-xs font-bold tracking-wider uppercase&quot;&gt;Zone G&lt;/div&gt;
+          &lt;i data-lucide=&quot;map-pin&quot; class=&quot;w-5 h-5 text-[#ff2e4d]&quot;&gt;&lt;/i&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;mb-4&quot;&gt;
+          &lt;div class=&quot;text-xs text-gray-500 uppercase tracking-wider mb-1&quot;&gt;Flat Charges&lt;/div&gt;
+          &lt;div class=&quot;price-num text-4xl sm:text-5xl&quot;&gt;
+            &lt;span class=&quot;text-lg align-top&quot;&gt;PKR&lt;/span&gt; &lt;span class=&quot;zone-price&quot; data-target=&quot;750&quot;&gt;0&lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;button class=&quot;toggle-areas w-full flex items-center justify-between text-sm font-semibold text-gray-300 hover:text-white py-2 border-t border-white/5&quot;&gt;
+          &lt;span class=&quot;flex items-center gap-2&quot;&gt;&lt;i data-lucide=&quot;list&quot; class=&quot;w-4 h-4 text-[#ff2e4d]&quot;&gt;&lt;/i&gt; View Areas&lt;/span&gt;
+          &lt;i data-lucide=&quot;chevron-down&quot; class=&quot;w-4 h-4 chevron&quot;&gt;&lt;/i&gt;
+        &lt;/button&gt;
+        &lt;div class=&quot;areas-list&quot;&gt;
+          &lt;div class=&quot;flex flex-wrap gap-2 pt-3&quot;&gt;
+            &lt;span class=&quot;area-pill px-3 py-1.5 rounded-lg text-xs text-gray-300&quot;&gt;Scheme 33&lt;/span&gt;
+            &lt;span class=&quot;area-pill px-3 py-1.5 rounded-lg text-xs text-gray-300&quot;&gt;Landhi&lt;/span&gt;
+            &lt;span class=&quot;area-pill px-3 py-1.5 rounded-lg text-xs text-gray-300&quot;&gt;Malir&lt;/span&gt;
+            &lt;span class=&quot;area-pill px-3 py-1.5 rounded-lg text-xs text-gray-300&quot;&gt;Safoora&lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;a href=&quot;https://wa.me/923007029197?text=I%20want%20to%20book%20a%20delivery%20in%20Zone%20G&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; class=&quot;btn-green mt-5 w-full px-4 py-3 rounded-xl font-bold text-sm flex items-center justify-center gap-2&quot;&gt;
+          &lt;i data-lucide=&quot;message-circle&quot; class=&quot;w-4 h-4&quot;&gt;&lt;/i&gt; Book Delivery
+        &lt;/a&gt;
+      &lt;/article&gt;
+    &lt;/div&gt;
+
+    &lt;!-- OUT OF RADIUS ZONE --&gt;
+    &lt;div class=&quot;mt-8 out-radius-card rounded-2xl p-6 sm:p-8 reveal reveal-delay-2 relative overflow-hidden&quot;&gt;
+      &lt;div class=&quot;absolute -top-16 -right-16 w-48 h-48 glow-blob bg-[#00e676]/15 rounded-full&quot;&gt;&lt;/div&gt;
+      &lt;div class=&quot;grid sm:grid-cols-[1fr_auto] gap-6 items-center relative z-10&quot;&gt;
+        &lt;div&gt;
+          &lt;div class=&quot;flex items-center gap-3 mb-3&quot;&gt;
+            &lt;div class=&quot;w-12 h-12 rounded-xl bg-[#00e676]/15 border border-[#00e676]/40 flex items-center justify-center&quot;&gt;
+              &lt;i data-lucide=&quot;map-pin-off&quot; class=&quot;w-6 h-6 text-[#00e676]&quot;&gt;&lt;/i&gt;
+            &lt;/div&gt;
+            &lt;h3 class=&quot;font-display font-bold text-xl sm:text-2xl&quot;&gt;Out of Radius Zone&lt;/h3&gt;
+          &lt;/div&gt;
+          &lt;p class=&quot;text-gray-300 text-sm sm:text-base max-w-xl&quot;&gt;
+            Your area is outside our standard delivery zones? No problem! Contact us on WhatsApp to confirm availability and delivery charges.
+          &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;a href=&quot;https://wa.me/923007029197?text=I%20want%20to%20check%20delivery%20availability%20for%20my%20area&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; class=&quot;btn-green px-6 py-4 rounded-xl font-bold flex items-center justify-center gap-2 whitespace-nowrap&quot;&gt;
+          &lt;i data-lucide=&quot;message-circle&quot; class=&quot;w-5 h-5&quot;&gt;&lt;/i&gt;
+          Check Your Area on WhatsApp
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!-- Please Note --&gt;
+    &lt;div class=&quot;mt-8 max-w-3xl mx-auto reveal&quot;&gt;
+      &lt;div class=&quot;flex items-start gap-3 p-4 rounded-xl bg-white/[0.02] border border-white/5&quot;&gt;
+        &lt;i data-lucide=&quot;info&quot; class=&quot;w-5 h-5 text-[#ffb547] shrink-0 mt-0.5&quot;&gt;&lt;/i&gt;
+        &lt;div&gt;
+          &lt;h4 class=&quot;font-display font-bold text-sm mb-1&quot;&gt;Please Note&lt;/h4&gt;
+          &lt;p class=&quot;text-gray-400 text-sm leading-relaxed&quot;&gt;
+            Delivery charges are based on the service zone and distance. For locations outside the listed zones or special delivery requirements, please contact us on WhatsApp for confirmation.
+          &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;!-- ====== CTA SECTION ====== --&gt;
+&lt;section class=&quot;relative py-16 sm:py-20 overflow-hidden&quot;&gt;
+  &lt;div class=&quot;max-w-5xl mx-auto px-4 sm:px-6 lg:px-8&quot;&gt;
+    &lt;div class=&quot;reveal glass-card rounded-3xl p-8 sm:p-12 text-center relative overflow-hidden corner-deco&quot;&gt;
+      &lt;div class=&quot;absolute -top-20 left-1/2 -translate-x-1/2 w-80 h-40 glow-blob bg-[#ff2e4d]/20 rounded-full&quot;&gt;&lt;/div&gt;
+      &lt;div class=&quot;relative z-10&quot;&gt;
+        &lt;div class=&quot;kicker mb-6 inline-flex&quot;&gt;
+          &lt;span class=&quot;w-2 h-2 rounded-full bg-[#00e676] live-dot&quot;&gt;&lt;/span&gt;
+          Available 24/7
+        &lt;/div&gt;
+        &lt;h2 class=&quot;font-display font-extrabold text-3xl sm:text-4xl lg:text-5xl tracking-tight leading-tight&quot;&gt;
+          Need a Delivery &lt;span class=&quot;text-[#ff2e4d]&quot;&gt;Right Now?&lt;/span&gt;
+        &lt;/h2&gt;
+        &lt;p class=&quot;mt-4 text-gray-400 text-base sm:text-lg max-w-xl mx-auto&quot;&gt;
+          Fast, Safe &amp; Reliable Delivery Service Available 24/7 Across Karachi.
+        &lt;/p&gt;
+        &lt;div class=&quot;mt-8 flex flex-col sm:flex-row gap-3 justify-center&quot;&gt;
+          &lt;a href=&quot;https://wa.me/923007029197&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; class=&quot;btn-green px-7 py-4 rounded-xl font-bold flex items-center justify-center gap-2&quot;&gt;
+            &lt;i data-lucide=&quot;message-circle&quot; class=&quot;w-5 h-5&quot;&gt;&lt;/i&gt;
+            WhatsApp Us
+          &lt;/a&gt;
+          &lt;a href=&quot;tel:+923007029197&quot; class=&quot;btn-primary px-7 py-4 rounded-xl font-bold flex items-center justify-center gap-2&quot;&gt;
+            &lt;i data-lucide=&quot;phone&quot; class=&quot;w-5 h-5&quot;&gt;&lt;/i&gt;
+            Call +92 300 7029197
+          &lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;!-- ====== SERVICE AREA ====== --&gt;
+&lt;section id=&quot;area&quot; class=&quot;relative py-20 sm:py-28 map-bg overflow-hidden&quot;&gt;
+  &lt;!-- Animated map background --&gt;
+  &lt;svg class=&quot;absolute inset-0 w-full h-full opacity-30 pointer-events-none&quot; preserveAspectRatio=&quot;xMidYMid slice&quot; viewBox=&quot;0 0 1440 800&quot;&gt;
+    &lt;defs&gt;
+      &lt;pattern id=&quot;areaGrid&quot; width=&quot;60&quot; height=&quot;60&quot; patternUnits=&quot;userSpaceOnUse&quot;&gt;
+        &lt;path d=&quot;M 60 0 L 0 0 0 60&quot; fill=&quot;none&quot; stroke=&quot;rgba(255,255,255,0.05)&quot; stroke-width=&quot;1&quot;/&gt;
+      &lt;/pattern&gt;
+    &lt;/defs&gt;
+    &lt;rect width=&quot;1440&quot; height=&quot;800&quot; fill=&quot;url(#areaGrid)&quot;/&gt;
+    &lt;!-- Roads --&gt;
+    &lt;path d=&quot;M 0 200 Q 400 150, 700 250 T 1440 200&quot; stroke=&quot;rgba(255,46,77,0.2)&quot; stroke-width=&quot;3&quot; fill=&quot;none&quot;/&gt;
+    &lt;path d=&quot;M 0 400 Q 500 350, 900 450 T 1440 400&quot; stroke=&quot;rgba(255,46,77,0.15)&quot; stroke-width=&quot;2&quot; fill=&quot;none&quot;/&gt;
+    &lt;path d=&quot;M 0 600 Q 400 550, 700 650 T 1440 600&quot; stroke=&quot;rgba(255,255,255,0.06)&quot; stroke-width=&quot;2&quot; fill=&quot;none&quot;/&gt;
+    &lt;path d=&quot;M 200 0 Q 250 400, 200 800&quot; stroke=&quot;rgba(255,255,255,0.04)&quot; stroke-width=&quot;2&quot; fill=&quot;none&quot;/&gt;
+    &lt;path d=&quot;M 800 0 Q 850 400, 800 800&quot; stroke=&quot;rgba(255,46,77,0.1)&quot; stroke-width=&quot;2&quot; fill=&quot;none&quot;/&gt;
+  &lt;/svg&gt;
+
+  &lt;!-- Floating pins --&gt;
+  &lt;div class=&quot;absolute top-20 left-[10%] map-pin hidden md:flex flex-col items-center&quot;&gt;
+    &lt;div class=&quot;relative&quot;&gt;
+      &lt;span class=&quot;absolute inset-0 ping-ring rounded-full bg-[#ff2e4d]/40&quot;&gt;&lt;/span&gt;
+      &lt;span class=&quot;relative w-4 h-4 bg-[#ff2e4d] rounded-full border-2 border-white shadow-lg&quot;&gt;&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;absolute top-40 right-[15%] map-pin hidden md:flex flex-col items-center&quot; style=&quot;animation-delay:1s&quot;&gt;
+    &lt;div class=&quot;relative&quot;&gt;
+      &lt;span class=&quot;absolute inset-0 ping-ring rounded-full bg-[#00e676]/40&quot; style=&quot;animation-delay:1s&quot;&gt;&lt;/span&gt;
+      &lt;span class=&quot;relative w-4 h-4 bg-[#00e676] rounded-full border-2 border-white shadow-lg&quot;&gt;&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;absolute bottom-32 left-[20%] map-pin hidden md:flex flex-col items-center&quot; style=&quot;animation-delay:2s&quot;&gt;
+    &lt;div class=&quot;relative&quot;&gt;
+      &lt;span class=&quot;absolute inset-0 ping-ring rounded-full bg-[#ffb547]/40&quot; style=&quot;animation-delay:2s&quot;&gt;&lt;/span&gt;
+      &lt;span class=&quot;relative w-4 h-4 bg-[#ffb547] rounded-full border-2 border-white shadow-lg&quot;&gt;&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;absolute bottom-20 right-[25%] map-pin hidden md:flex flex-col items-center&quot; style=&quot;animation-delay:0.5s&quot;&gt;
+    &lt;div class=&quot;relative&quot;&gt;
+      &lt;span class=&quot;absolute inset-0 ping-ring rounded-full bg-white/30&quot; style=&quot;animation-delay:0.5s&quot;&gt;&lt;/span&gt;
+      &lt;span class=&quot;relative w-3 h-3 bg-white rounded-full border-2 border-[#ff2e4d]&quot;&gt;&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10&quot;&gt;
+    &lt;div class=&quot;text-center max-w-2xl mx-auto reveal&quot;&gt;
+      &lt;div class=&quot;kicker mb-6&quot;&gt;
+        &lt;i data-lucide=&quot;map&quot; class=&quot;w-3 h-3&quot;&gt;&lt;/i&gt;
+        Service Area
+      &lt;/div&gt;
+      &lt;h2 class=&quot;font-display font-extrabold text-3xl sm:text-4xl lg:text-5xl leading-tight tracking-tight&quot;&gt;
+        We provide delivery service &lt;span class=&quot;text-[#ff2e4d]&quot;&gt;across Karachi&lt;/span&gt;
+      &lt;/h2&gt;
+      &lt;p class=&quot;mt-4 text-gray-400 text-base sm:text-lg&quot;&gt;
+        Primarily serving DHA and Clifton — and covering all areas across Karachi with fast, reliable delivery.
+      &lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;mt-12 grid sm:grid-cols-3 gap-5 max-w-4xl mx-auto&quot;&gt;
+      &lt;div class=&quot;reveal reveal-delay-1 glass-card rounded-2xl p-6 text-center&quot;&gt;
+        &lt;div class=&quot;w-14 h-14 mx-auto rounded-xl bg-[#ff2e4d]/15 border border-[#ff2e4d]/30 flex items-center justify-center mb-4&quot;&gt;
+          &lt;i data-lucide=&quot;map-pin&quot; class=&quot;w-7 h-7 text-[#ff2e4d]&quot;&gt;&lt;/i&gt;
+        &lt;/div&gt;
+        &lt;h3 class=&quot;font-display font-bold text-xl&quot;&gt;DHA&lt;/h3&gt;
+        &lt;p class=&quot;text-gray-400 text-sm mt-1&quot;&gt;Defence Housing Authority — all phases covered&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;reveal reveal-delay-2 glass-card rounded-2xl p-6 text-center&quot;&gt;
+        &lt;div class=&quot;w-14 h-14 mx-auto rounded-xl bg-[#00e676]/15 border border-[#00e676]/30 flex items-center justify-center mb-4&quot;&gt;
+          &lt;i data-lucide=&quot;map-pin&quot; class=&quot;w-7 h-7 text-[#00e676]&quot;&gt;&lt;/i&gt;
+        &lt;/div&gt;
+        &lt;h3 class=&quot;font-display font-bold text-xl&quot;&gt;Clifton&lt;/h3&gt;
+        &lt;p class=&quot;text-gray-400 text-sm mt-1&quot;&gt;Clifton &amp; adjacent neighborhoods covered&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;reveal reveal-delay-3 glass-card rounded-2xl p-6 text-center&quot;&gt;
+        &lt;div class=&quot;w-14 h-14 mx-auto rounded-xl bg-[#ffb547]/15 border border-[#ffb547]/30 flex items-center justify-center mb-4&quot;&gt;
+          &lt;i data-lucide=&quot;map-pin&quot; class=&quot;w-7 h-7 text-[#ffb547]&quot;&gt;&lt;/i&gt;
+        &lt;/div&gt;
+        &lt;h3 class=&quot;font-display font-bold text-xl&quot;&gt;Across Karachi&lt;/h3&gt;
+        &lt;p class=&quot;text-gray-400 text-sm mt-1&quot;&gt;Extended coverage throughout Karachi city&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;mt-10 text-center reveal reveal-delay-4&quot;&gt;
+      &lt;a href=&quot;#booking&quot; class=&quot;btn-primary inline-flex items-center gap-2 px-7 py-4 rounded-xl font-bold&quot;&gt;
+        &lt;i data-lucide=&quot;send&quot; class=&quot;w-5 h-5&quot;&gt;&lt;/i&gt;
+        Check Availability
+      &lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;!-- ====== BUSINESS HOURS / 24H ====== --&gt;
+&lt;section class=&quot;relative py-20 sm:py-28&quot;&gt;
+  &lt;div class=&quot;max-w-5xl mx-auto px-4 sm:px-6 lg:px-8&quot;&gt;
+    &lt;div class=&quot;reveal glass-card rounded-3xl p-8 sm:p-12 relative overflow-hidden corner-deco&quot;&gt;
+      &lt;!-- Glow --&gt;
+      &lt;div class=&quot;absolute -top-20 -right-20 w-60 h-60 glow-blob bg-[#00e676]/15 rounded-full&quot;&gt;&lt;/div&gt;
+      &lt;div class=&quot;absolute -bottom-20 -left-20 w-60 h-60 glow-blob bg-[#ff2e4d]/15 rounded-full&quot;&gt;&lt;/div&gt;
+
+      &lt;div class=&quot;grid sm:grid-cols-[auto_1fr] gap-8 sm:gap-10 items-center relative z-10&quot;&gt;
+        &lt;!-- Animated clock --&gt;
+        &lt;div class=&quot;mx-auto sm:mx-0&quot;&gt;
+          &lt;svg viewBox=&quot;0 0 120 120&quot; class=&quot;w-32 h-32 sm:w-40 sm:h-40&quot;&gt;
+            &lt;circle cx=&quot;60&quot; cy=&quot;60&quot; r=&quot;54&quot; fill=&quot;rgba(0,230,118,0.05)&quot; stroke=&quot;rgba(0,230,118,0.3)&quot; stroke-width=&quot;2&quot;/&gt;
+            &lt;circle cx=&quot;60&quot; cy=&quot;60&quot; r=&quot;48&quot; fill=&quot;none&quot; stroke=&quot;rgba(255,255,255,0.06)&quot; stroke-width=&quot;1&quot;/&gt;
+            &lt;!-- Hour markers --&gt;
+            &lt;g stroke=&quot;rgba(255,255,255,0.4)&quot; stroke-width=&quot;2&quot;&gt;
+              &lt;line x1=&quot;60&quot; y1=&quot;8&quot; x2=&quot;60&quot; y2=&quot;14&quot;/&gt;
+              &lt;line x1=&quot;60&quot; y1=&quot;106&quot; x2=&quot;60&quot; y2=&quot;112&quot;/&gt;
+              &lt;line x1=&quot;8&quot; y1=&quot;60&quot; x2=&quot;14&quot; y2=&quot;60&quot;/&gt;
+              &lt;line x1=&quot;106&quot; y1=&quot;60&quot; x2=&quot;112&quot; y2=&quot;60&quot;/&gt;
+            &lt;/g&gt;
+            &lt;g stroke=&quot;rgba(255,255,255,0.2)&quot; stroke-width=&quot;1&quot;&gt;
+              &lt;line x1=&quot;60&quot; y1=&quot;10&quot; x2=&quot;60&quot; y2=&quot;14&quot; transform=&quot;rotate(30 60 60)&quot;/&gt;
+              &lt;line x1=&quot;60&quot; y1=&quot;10&quot; x2=&quot;60&quot; y2=&quot;14&quot; transform=&quot;rotate(60 60 60)&quot;/&gt;
+              &lt;line x1=&quot;60&quot; y1=&quot;10&quot; x2=&quot;60&quot; y2=&quot;14&quot; transform=&quot;rotate(120 60 60)&quot;/&gt;
+              &lt;line x1=&quot;60&quot; y1=&quot;10&quot; x2=&quot;60&quot; y2=&quot;14&quot; transform=&quot;rotate(150 60 60)&quot;/&gt;
+              &lt;line x1=&quot;60&quot; y1=&quot;10&quot; x2=&quot;60&quot; y2=&quot;14&quot; transform=&quot;rotate(210 60 60)&quot;/&gt;
+              &lt;line x1=&quot;60&quot; y1=&quot;10&quot; x2=&quot;60&quot; y2=&quot;14&quot; transform=&quot;rotate(240 60 60)&quot;/&gt;
+              &lt;line x1=&quot;60&quot; y1=&quot;10&quot; x2=&quot;60&quot; y2=&quot;14&quot; transform=&quot;rotate(300 60 60)&quot;/&gt;
+              &lt;line x1=&quot;60&quot; y1=&quot;10&quot; x2=&quot;60&quot; y2=&quot;14&quot; transform=&quot;rotate(330 60 60)&quot;/&gt;
+            &lt;/g&gt;
+            &lt;!-- Numbers --&gt;
+            &lt;text x=&quot;60&quot; y=&quot;24&quot; text-anchor=&quot;middle&quot; font-family=&quot;Sora&quot; font-size=&quot;8&quot; fill=&quot;rgba(255,255,255,0.6)&quot; font-weight=&quot;700&quot;&gt;12&lt;/text&gt;
+            &lt;text x=&quot;100&quot; y=&quot;64&quot; text-anchor=&quot;middle&quot; font-family=&quot;Sora&quot; font-size=&quot;8&quot; fill=&quot;rgba(255,255,255,0.6)&quot; font-weight=&quot;700&quot;&gt;3&lt;/text&gt;
+            &lt;text x=&quot;60&quot; y=&quot;104&quot; text-anchor=&quot;middle&quot; font-family=&quot;Sora&quot; font-size=&quot;8&quot; fill=&quot;rgba(255,255,255,0.6)&quot; font-weight=&quot;700&quot;&gt;6&lt;/text&gt;
+            &lt;text x=&quot;20&quot; y=&quot;64&quot; text-anchor=&quot;middle&quot; font-family=&quot;Sora&quot; font-size=&quot;8&quot; fill=&quot;rgba(255,255,255,0.6)&quot; font-weight=&quot;700&quot;&gt;9&lt;/text&gt;
+            &lt;!-- Hands --&gt;
+            &lt;line x1=&quot;60&quot; y1=&quot;60&quot; x2=&quot;60&quot; y2=&quot;30&quot; stroke=&quot;rgba(255,255,255,0.8)&quot; stroke-width=&quot;3&quot; stroke-linecap=&quot;round&quot; class=&quot;clock-hand-h&quot;/&gt;
+            &lt;line x1=&quot;60&quot; y1=&quot;60&quot; x2=&quot;88&quot; y2=&quot;60&quot; stroke=&quot;rgba(255,255,255,0.6)&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot; class=&quot;clock-hand-m&quot;/&gt;
+            &lt;line x1=&quot;60&quot; y1=&quot;60&quot; x2=&quot;60&quot; y2=&quot;20&quot; stroke=&quot;#00e676&quot; stroke-width=&quot;1.5&quot; stroke-linecap=&quot;round&quot; class=&quot;clock-hand-s&quot;/&gt;
+            &lt;circle cx=&quot;60&quot; cy=&quot;60&quot; r=&quot;4&quot; fill=&quot;#00e676&quot;/&gt;
+            &lt;circle cx=&quot;60&quot; cy=&quot;60&quot; r=&quot;2&quot; fill=&quot;#07070c&quot;/&gt;
+          &lt;/svg&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;text-center sm:text-left&quot;&gt;
+          &lt;div class=&quot;inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-[#00e676]/10 border border-[#00e676]/30 mb-4&quot;&gt;
+            &lt;span class=&quot;w-2 h-2 rounded-full bg-[#00e676] live-dot&quot;&gt;&lt;/span&gt;
+            &lt;span class=&quot;text-[#00e676] font-bold text-xs tracking-wider uppercase&quot;&gt;Open Now&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;h2 class=&quot;font-display font-extrabold text-3xl sm:text-4xl lg:text-5xl tracking-tight leading-tight&quot;&gt;
+            Available &lt;span class=&quot;text-[#00e676]&quot;&gt;24 Hours&lt;/span&gt;
+          &lt;/h2&gt;
+          &lt;p class=&quot;mt-4 text-gray-400 text-base sm:text-lg max-w-md mx-auto sm:mx-0&quot;&gt;
+            We are available 24/7 to help with your delivery needs. Day or night — our riders are always ready to deliver.
+          &lt;/p&gt;
+          &lt;div class=&quot;mt-6 flex flex-col sm:flex-row gap-3 justify-center sm:justify-start&quot;&gt;
+            &lt;a href=&quot;tel:+923007029197&quot; class=&quot;btn-primary px-6 py-3 rounded-xl font-bold text-sm flex items-center justify-center gap-2&quot;&gt;
+              &lt;i data-lucide=&quot;phone&quot; class=&quot;w-4 h-4&quot;&gt;&lt;/i&gt;
+              Call Now
+            &lt;/a&gt;
+            &lt;a href=&quot;https://wa.me/923007029197&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; class=&quot;btn-green px-6 py-3 rounded-xl font-bold text-sm flex items-center justify-center gap-2&quot;&gt;
+              &lt;i data-lucide=&quot;message-circle&quot; class=&quot;w-4 h-4&quot;&gt;&lt;/i&gt;
+              WhatsApp
+            &lt;/a&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;!-- ====== BOOKING FORM ====== --&gt;
+&lt;section id=&quot;booking&quot; class=&quot;relative py-20 sm:py-28&quot;&gt;
+  &lt;div class=&quot;max-w-5xl mx-auto px-4 sm:px-6 lg:px-8&quot;&gt;
+    &lt;div class=&quot;text-center max-w-2xl mx-auto reveal&quot;&gt;
+      &lt;div class=&quot;kicker mb-6&quot;&gt;
+        &lt;i data-lucide=&quot;send&quot; class=&quot;w-3 h-3&quot;&gt;&lt;/i&gt;
+        Book a Delivery
+      &lt;/div&gt;
+      &lt;h2 class=&quot;font-display font-extrabold text-3xl sm:text-4xl lg:text-5xl leading-tight tracking-tight&quot;&gt;
+        Send your &lt;span class=&quot;text-[#ff2e4d]&quot;&gt;delivery request&lt;/span&gt;
+      &lt;/h2&gt;
+      &lt;p class=&quot;mt-4 text-gray-400 text-base sm:text-lg&quot;&gt;
+        Fill the form below and your booking details will be sent directly to our WhatsApp for instant confirmation.
+      &lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;form id=&quot;bookingForm&quot; class=&quot;mt-12 glass-card rounded-3xl p-6 sm:p-10 reveal reveal-delay-1 relative overflow-hidden corner-deco&quot;&gt;
+      &lt;div class=&quot;grid sm:grid-cols-2 gap-5&quot;&gt;
+        &lt;div&gt;
+          &lt;label for=&quot;custName&quot; class=&quot;block text-sm font-medium text-gray-300 mb-2&quot;&gt;Customer Name &lt;span class=&quot;text-[#ff2e4d]&quot;&gt;*&lt;/span&gt;&lt;/label&gt;
+          &lt;input type=&quot;text&quot; id=&quot;custName&quot; name=&quot;custName&quot; required placeholder=&quot;Your full name&quot; class=&quot;field w-full px-4 py-3 rounded-xl text-sm&quot;&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+          &lt;label for=&quot;custPhone&quot; class=&quot;block text-sm font-medium text-gray-300 mb-2&quot;&gt;Phone Number &lt;span class=&quot;text-[#ff2e4d]&quot;&gt;*&lt;/span&gt;&lt;/label&gt;
+          &lt;input type=&quot;tel&quot; id=&quot;custPhone&quot; name=&quot;custPhone&quot; required placeholder=&quot;03XX XXXXXXX&quot; class=&quot;field w-full px-4 py-3 rounded-xl text-sm&quot;&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+          &lt;label for=&quot;pickupLoc&quot; class=&quot;block text-sm font-medium text-gray-300 mb-2&quot;&gt;Pickup Location &lt;span class=&quot;text-[#ff2e4d]&quot;&gt;*&lt;/span&gt;&lt;/label&gt;
+          &lt;input type=&quot;text&quot; id=&quot;pickupLoc&quot; name=&quot;pickupLoc&quot; required placeholder=&quot;Restaurant / shop address&quot; class=&quot;field w-full px-4 py-3 rounded-xl text-sm&quot;&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+          &lt;label for=&quot;dropLoc&quot; class=&quot;block text-sm font-medium text-gray-300 mb-2&quot;&gt;Delivery Location &lt;span class=&quot;text-[#ff2e4d]&quot;&gt;*&lt;/span&gt;&lt;/label&gt;
+          &lt;input type=&quot;text&quot; id=&quot;dropLoc&quot; name=&quot;dropLoc&quot; required placeholder=&quot;Delivery address&quot; class=&quot;field w-full px-4 py-3 rounded-xl text-sm&quot;&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+          &lt;label for=&quot;serviceType&quot; class=&quot;block text-sm font-medium text-gray-300 mb-2&quot;&gt;Service Type &lt;span class=&quot;text-[#ff2e4d]&quot;&gt;*&lt;/span&gt;&lt;/label&gt;
+          &lt;select id=&quot;serviceType&quot; name=&quot;serviceType&quot; required class=&quot;field w-full px-4 py-3 rounded-xl text-sm&quot;&gt;
+            &lt;option value=&quot;&quot; disabled selected&gt;Select service&lt;/option&gt;
+            &lt;option&gt;Restaurant Delivery&lt;/option&gt;
+            &lt;option&gt;Home Chef Delivery&lt;/option&gt;
+            &lt;option&gt;Coffee Shop Delivery&lt;/option&gt;
+            &lt;option&gt;Dessert Shop Delivery&lt;/option&gt;
+            &lt;option&gt;Gift Shop Delivery&lt;/option&gt;
+            &lt;option&gt;Delivery Boy Service&lt;/option&gt;
+          &lt;/select&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+          &lt;label for=&quot;pickupTime&quot; class=&quot;block text-sm font-medium text-gray-300 mb-2&quot;&gt;Preferred Pickup Time &lt;span class=&quot;text-[#ff2e4d]&quot;&gt;*&lt;/span&gt;&lt;/label&gt;
+          &lt;input type=&quot;datetime-local&quot; id=&quot;pickupTime&quot; name=&quot;pickupTime&quot; required class=&quot;field w-full px-4 py-3 rounded-xl text-sm&quot;&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;sm:col-span-2&quot;&gt;
+          &lt;label for=&quot;details&quot; class=&quot;block text-sm font-medium text-gray-300 mb-2&quot;&gt;Package / Order Details &lt;span class=&quot;text-[#ff2e4d]&quot;&gt;*&lt;/span&gt;&lt;/label&gt;
+          &lt;textarea id=&quot;details&quot; name=&quot;details&quot; rows=&quot;4&quot; required placeholder=&quot;Describe your package / order — items, quantity, special instructions...&quot; class=&quot;field w-full px-4 py-3 rounded-xl text-sm resize-none&quot;&gt;&lt;/textarea&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;div class=&quot;mt-8 flex flex-col sm:flex-row gap-3 items-center justify-between&quot;&gt;
+        &lt;p class=&quot;text-xs text-gray-500 flex items-center gap-2&quot;&gt;
+          &lt;i data-lucide=&quot;shield-check&quot; class=&quot;w-4 h-4 text-[#00e676]&quot;&gt;&lt;/i&gt;
+          Your request will be sent via WhatsApp for instant confirmation.
+        &lt;/p&gt;
+        &lt;button type=&quot;submit&quot; class=&quot;btn-primary w-full sm:w-auto px-8 py-4 rounded-xl font-bold flex items-center justify-center gap-2&quot;&gt;
+          &lt;i data-lucide=&quot;send&quot; class=&quot;w-5 h-5&quot;&gt;&lt;/i&gt;
+          Send Delivery Request
+        &lt;/button&gt;
+      &lt;/div&gt;
+    &lt;/form&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;!-- ====== TESTIMONIALS ====== --&gt;
+&lt;section class=&quot;relative py-20 sm:py-28&quot;&gt;
+  &lt;div class=&quot;max-w-7xl mx-auto px-4 sm:px-6 lg:px-8&quot;&gt;
+    &lt;div class=&quot;text-center max-w-2xl mx-auto reveal&quot;&gt;
+      &lt;div class=&quot;kicker mb-6&quot;&gt;
+        &lt;i data-lucide=&quot;quote&quot; class=&quot;w-3 h-3&quot;&gt;&lt;/i&gt;
+        Testimonials
+      &lt;/div&gt;
+      &lt;h2 class=&quot;font-display font-extrabold text-3xl sm:text-4xl lg:text-5xl leading-tight tracking-tight&quot;&gt;
+        Trusted by &lt;span class=&quot;text-[#ff2e4d]&quot;&gt;Karachi businesses&lt;/span&gt;
+      &lt;/h2&gt;
+      &lt;p class=&quot;mt-4 text-gray-400 text-base sm:text-lg&quot;&gt;
+        Real reviews from restaurants, home chefs and customers who rely on our delivery service every day.
+      &lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;mt-12 grid md:grid-cols-3 gap-5&quot;&gt;
+      &lt;article class=&quot;reveal reveal-delay-1 testimonial-card rounded-2xl p-6&quot;&gt;
+        &lt;div class=&quot;flex items-center gap-1 mb-4&quot;&gt;
+          &lt;i data-lucide=&quot;star&quot; class=&quot;w-4 h-4 text-[#ffb547] fill-[#ffb547]&quot;&gt;&lt;/i&gt;
+          &lt;i data-lucide=&quot;star&quot; class=&quot;w-4 h-4 text-[#ffb547] fill-[#ffb547]&quot;&gt;&lt;/i&gt;
+          &lt;i data-lucide=&quot;star&quot; class=&quot;w-4 h-4 text-[#ffb547] fill-[#ffb547]&quot;&gt;&lt;/i&gt;
+          &lt;i data-lucide=&quot;star&quot; class=&quot;w-4 h-4 text-[#ffb547] fill-[#ffb547]&quot;&gt;&lt;/i&gt;
+          &lt;i data-lucide=&quot;star&quot; class=&quot;w-4 h-4 text-[#ffb547] fill-[#ffb547]&quot;&gt;&lt;/i&gt;
+        &lt;/div&gt;
+        &lt;h3 class=&quot;font-display font-bold text-lg mb-2&quot;&gt;Fast &amp; Reliable Service&lt;/h3&gt;
+        &lt;p class=&quot;text-gray-400 text-sm leading-relaxed mb-5&quot;&gt;
+          &quot;Arif bhai's delivery service is the best in DHA. Always on time, professional riders and our food always reaches hot. Highly recommended for any restaurant.&quot;
+        &lt;/p&gt;
+        &lt;div class=&quot;flex items-center gap-3 pt-4 border-t border-white/5&quot;&gt;
+          &lt;div class=&quot;w-10 h-10 rounded-full bg-gradient-to-br from-[#ff2e4d] to-[#c8203a] flex items-center justify-center font-display font-bold text-sm&quot;&gt;AK&lt;/div&gt;
+          &lt;div&gt;
+            &lt;div class=&quot;font-semibold text-sm&quot;&gt;Ahmed Khan&lt;/div&gt;
+            &lt;div class=&quot;text-xs text-gray-500&quot;&gt;Restaurant Owner • DHA&lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/article&gt;
+
+      &lt;article class=&quot;reveal reveal-delay-2 testimonial-card rounded-2xl p-6&quot;&gt;
+        &lt;div class=&quot;flex items-center gap-1 mb-4&quot;&gt;
+          &lt;i data-lucide=&quot;star&quot; class=&quot;w-4 h-4 text-[#ffb547] fill-[#ffb547]&quot;&gt;&lt;/i&gt;
+          &lt;i data-lucide=&quot;star&quot; class=&quot;w-4 h-4 text-[#ffb547] fill-[#ffb547]&quot;&gt;&lt;/i&gt;
+          &lt;i data-lucide=&quot;star&quot; class=&quot;w-4 h-4 text-[#ffb547] fill-[#ffb547]&quot;&gt;&lt;/i&gt;
+          &lt;i data-lucide=&quot;star&quot; class=&quot;w-4 h-4 text-[#ffb547] fill-[#ffb547]&quot;&gt;&lt;/i&gt;
+          &lt;i data-lucide=&quot;star&quot; class=&quot;w-4 h-4 text-[#ffb547] fill-[#ffb547]&quot;&gt;&lt;/i&gt;
+        &lt;/div&gt;
+        &lt;h3 class=&quot;font-display font-bold text-lg mb-2&quot;&gt;Professional Delivery&lt;/h3&gt;
+        &lt;p class=&quot;text-gray-400 text-sm leading-relaxed mb-5&quot;&gt;
+          &quot;As a home chef, I needed a delivery partner I could trust. Arif Delivery Service has been incredible — punctual, courteous and never disappoints my customers.&quot;
+        &lt;/p&gt;
+        &lt;div class=&quot;flex items-center gap-3 pt-4 border-t border-white/5&quot;&gt;
+          &lt;div class=&quot;w-10 h-10 rounded-full bg-gradient-to-br from-[#ffb547] to-[#c87a1f] flex items-center justify-center font-display font-bold text-sm&quot;&gt;SR&lt;/div&gt;
+          &lt;div&gt;
+            &lt;div class=&quot;font-semibold text-sm&quot;&gt;Sana Rahman&lt;/div&gt;
+            &lt;div class=&quot;text-xs text-gray-500&quot;&gt;Home Chef • Clifton&lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/article&gt;
+
+      &lt;article class=&quot;reveal reveal-delay-3 testimonial-card rounded-2xl p-6&quot;&gt;
+        &lt;div class=&quot;flex items-center gap-1 mb-4&quot;&gt;
+          &lt;i data-lucide=&quot;star&quot; class=&quot;w-4 h-4 text-[#ffb547] fill-[#ffb547]&quot;&gt;&lt;/i&gt;
+          &lt;i data-lucide=&quot;star&quot; class=&quot;w-4 h-4 text-[#ffb547] fill-[#ffb547]&quot;&gt;&lt;/i&gt;
+          &lt;i data-lucide=&quot;star&quot; class=&quot;w-4 h-4 text-[#ffb547] fill-[#ffb547]&quot;&gt;&lt;/i&gt;
+          &lt;i data-lucide=&quot;star&quot; class=&quot;w-4 h-4 text-[#ffb547] fill-[#ffb547]&quot;&gt;&lt;/i&gt;
+          &lt;i data-lucide=&quot;star&quot; class=&quot;w-4 h-4 text-[#ffb547] fill-[#ffb547]&quot;&gt;&lt;/i&gt;
+        &lt;/div&gt;
+        &lt;h3 class=&quot;font-display font-bold text-lg mb-2&quot;&gt;Trusted Karachi Delivery&lt;/h3&gt;
+        &lt;p class=&quot;text-gray-400 text-sm leading-relaxed mb-5&quot;&gt;
+          &quot;Sent a birthday gift to my sister in Clifton — delivered within 30 minutes with proper care. The 24/7 availability is what makes this service stand out in Karachi.&quot;
+        &lt;/p&gt;
+        &lt;div class=&quot;flex items-center gap-3 pt-4 border-t border-white/5&quot;&gt;
+          &lt;div class=&quot;w-10 h-10 rounded-full bg-gradient-to-br from-[#00e676] to-[#00c853] flex items-center justify-center font-display font-bold text-sm text-[#062b14]&quot;&gt;FA&lt;/div&gt;
+          &lt;div&gt;
+            &lt;div class=&quot;font-semibold text-sm&quot;&gt;Fatima Ali&lt;/div&gt;
+            &lt;div class=&quot;text-xs text-gray-500&quot;&gt;Customer • Gulshan&lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/article&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;!-- ====== CONTACT ====== --&gt;
+&lt;section id=&quot;contact&quot; class=&quot;relative py-20 sm:py-28&quot;&gt;
+  &lt;div class=&quot;max-w-7xl mx-auto px-4 sm:px-6 lg:px-8&quot;&gt;
+    &lt;div class=&quot;text-center max-w-2xl mx-auto reveal&quot;&gt;
+      &lt;div class=&quot;kicker mb-6&quot;&gt;
+        &lt;i data-lucide=&quot;phone&quot; class=&quot;w-3 h-3&quot;&gt;&lt;/i&gt;
+        Contact Us
+      &lt;/div&gt;
+      &lt;h2 class=&quot;font-display font-extrabold text-3xl sm:text-4xl lg:text-5xl leading-tight tracking-tight&quot;&gt;
+        Get in touch — &lt;span class=&quot;text-[#ff2e4d]&quot;&gt;we're here 24/7&lt;/span&gt;
+      &lt;/h2&gt;
+      &lt;p class=&quot;mt-4 text-gray-400 text-base sm:text-lg&quot;&gt;
+        Call, WhatsApp or email us anytime. We're always ready to take your delivery requests.
+      &lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;mt-14 grid lg:grid-cols-2 gap-8&quot;&gt;
+      &lt;!-- Contact info --&gt;
+      &lt;div class=&quot;reveal space-y-4&quot;&gt;
+        &lt;a href=&quot;tel:+923007029197&quot; class=&quot;glass-card rounded-2xl p-5 flex items-center gap-4 hover:border-[#ff2e4d]/50 transition-colors&quot;&gt;
+          &lt;div class=&quot;w-14 h-14 rounded-xl bg-[#ff2e4d]/15 border border-[#ff2e4d]/30 flex items-center justify-center shrink-0&quot;&gt;
+            &lt;i data-lucide=&quot;phone&quot; class=&quot;w-6 h-6 text-[#ff2e4d]&quot;&gt;&lt;/i&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;flex-1&quot;&gt;
+            &lt;div class=&quot;text-xs text-gray-500 uppercase tracking-wider&quot;&gt;Phone — Click to call&lt;/div&gt;
+            &lt;div class=&quot;font-display font-bold text-lg&quot;&gt;+92 300 7029197&lt;/div&gt;
+          &lt;/div&gt;
+          &lt;i data-lucide=&quot;arrow-up-right&quot; class=&quot;w-5 h-5 text-gray-500&quot;&gt;&lt;/i&gt;
+        &lt;/a&gt;
+
+        &lt;a href=&quot;https://wa.me/923007029197&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; class=&quot;glass-card rounded-2xl p-5 flex items-center gap-4 hover:border-[#00e676]/50 transition-colors&quot;&gt;
+          &lt;div class=&quot;w-14 h-14 rounded-xl bg-[#00e676]/15 border border-[#00e676]/30 flex items-center justify-center shrink-0&quot;&gt;
+            &lt;i data-lucide=&quot;message-circle&quot; class=&quot;w-6 h-6 text-[#00e676]&quot;&gt;&lt;/i&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;flex-1&quot;&gt;
+            &lt;div class=&quot;text-xs text-gray-500 uppercase tracking-wider&quot;&gt;WhatsApp — Chat with us&lt;/div&gt;
+            &lt;div class=&quot;font-display font-bold text-lg&quot;&gt;+92 300 7029197&lt;/div&gt;
+          &lt;/div&gt;
+          &lt;i data-lucide=&quot;arrow-up-right&quot; class=&quot;w-5 h-5 text-gray-500&quot;&gt;&lt;/i&gt;
+        &lt;/a&gt;
+
+        &lt;a href=&quot;mailto:arifhussain2381@gmail.com&quot; class=&quot;glass-card rounded-2xl p-5 flex items-center gap-4 hover:border-[#ff2e4d]/50 transition-colors&quot;&gt;
+          &lt;div class=&quot;w-14 h-14 rounded-xl bg-[#ff2e4d]/15 border border-[#ff2e4d]/30 flex items-center justify-center shrink-0&quot;&gt;
+            &lt;i data-lucide=&quot;mail&quot; class=&quot;w-6 h-6 text-[#ff2e4d]&quot;&gt;&lt;/i&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;flex-1 min-w-0&quot;&gt;
+            &lt;div class=&quot;text-xs text-gray-500 uppercase tracking-wider&quot;&gt;Email&lt;/div&gt;
+            &lt;div class=&quot;font-display font-bold text-base truncate&quot;&gt;arifhussain2381@gmail.com&lt;/div&gt;
+          &lt;/div&gt;
+          &lt;i data-lucide=&quot;arrow-up-right&quot; class=&quot;w-5 h-5 text-gray-500&quot;&gt;&lt;/i&gt;
+        &lt;/a&gt;
+
+        &lt;div class=&quot;glass-card rounded-2xl p-5 flex items-center gap-4&quot;&gt;
+          &lt;div class=&quot;w-14 h-14 rounded-xl bg-[#ffb547]/15 border border-[#ffb547]/30 flex items-center justify-center shrink-0&quot;&gt;
+            &lt;i data-lucide=&quot;map-pin&quot; class=&quot;w-6 h-6 text-[#ffb547]&quot;&gt;&lt;/i&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;flex-1&quot;&gt;
+            &lt;div class=&quot;text-xs text-gray-500 uppercase tracking-wider&quot;&gt;Location&lt;/div&gt;
+            &lt;div class=&quot;font-display font-bold text-lg&quot;&gt;DHA / Clifton, Karachi&lt;/div&gt;
+            &lt;div class=&quot;text-xs text-gray-500&quot;&gt;Serving across Karachi&lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;glass-card rounded-2xl p-5 flex items-center gap-4&quot;&gt;
+          &lt;div class=&quot;w-14 h-14 rounded-xl bg-[#00e676]/15 border border-[#00e676]/30 flex items-center justify-center shrink-0&quot;&gt;
+            &lt;i data-lucide=&quot;clock&quot; class=&quot;w-6 h-6 text-[#00e676]&quot;&gt;&lt;/i&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;flex-1&quot;&gt;
+            &lt;div class=&quot;text-xs text-gray-500 uppercase tracking-wider&quot;&gt;Business Hours&lt;/div&gt;
+            &lt;div class=&quot;font-display font-bold text-lg flex items-center gap-2&quot;&gt;
+              Open 24 Hours
+              &lt;span class=&quot;inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-[#00e676]/10 border border-[#00e676]/30 text-[#00e676] text-[10px] font-bold tracking-wider&quot;&gt;
+                &lt;span class=&quot;w-1.5 h-1.5 rounded-full bg-[#00e676] live-dot&quot;&gt;&lt;/span&gt;
+                OPEN
+              &lt;/span&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;!-- Contact form --&gt;
+      &lt;form id=&quot;contactForm&quot; class=&quot;reveal reveal-delay-1 glass-card rounded-3xl p-6 sm:p-8 relative overflow-hidden corner-deco&quot;&gt;
+        &lt;h3 class=&quot;font-display font-bold text-xl mb-1&quot;&gt;Send a quick message&lt;/h3&gt;
+        &lt;p class=&quot;text-gray-400 text-sm mb-6&quot;&gt;Have a question? Drop us a message and we'll get back to you quickly.&lt;/p&gt;
+        &lt;div class=&quot;space-y-4&quot;&gt;
+          &lt;div&gt;
+            &lt;label for=&quot;cName&quot; class=&quot;block text-sm font-medium text-gray-300 mb-2&quot;&gt;Your Name&lt;/label&gt;
+            &lt;input type=&quot;text&quot; id=&quot;cName&quot; required placeholder=&quot;Full name&quot; class=&quot;field w-full px-4 py-3 rounded-xl text-sm&quot;&gt;
+          &lt;/div&gt;
+          &lt;div&gt;
+            &lt;label for=&quot;cPhone&quot; class=&quot;block text-sm font-medium text-gray-300 mb-2&quot;&gt;Phone / WhatsApp&lt;/label&gt;
+            &lt;input type=&quot;tel&quot; id=&quot;cPhone&quot; required placeholder=&quot;03XX XXXXXXX&quot; class=&quot;field w-full px-4 py-3 rounded-xl text-sm&quot;&gt;
+          &lt;/div&gt;
+          &lt;div&gt;
+            &lt;label for=&quot;cMsg&quot; class=&quot;block text-sm font-medium text-gray-300 mb-2&quot;&gt;Message&lt;/label&gt;
+            &lt;textarea id=&quot;cMsg&quot; rows=&quot;4&quot; required placeholder=&quot;Your message...&quot; class=&quot;field w-full px-4 py-3 rounded-xl text-sm resize-none&quot;&gt;&lt;/textarea&gt;
+          &lt;/div&gt;
+          &lt;button type=&quot;submit&quot; class=&quot;btn-primary w-full px-6 py-3.5 rounded-xl font-bold flex items-center justify-center gap-2&quot;&gt;
+            &lt;i data-lucide=&quot;send&quot; class=&quot;w-4 h-4&quot;&gt;&lt;/i&gt;
+            Send Message via WhatsApp
+          &lt;/button&gt;
+        &lt;/div&gt;
+      &lt;/form&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;!-- ====== FOOTER ====== --&gt;
+&lt;footer class=&quot;relative pt-16 pb-8 border-t border-white/5&quot;&gt;
+  &lt;div class=&quot;max-w-7xl mx-auto px-4 sm:px-6 lg:px-8&quot;&gt;
+    &lt;div class=&quot;grid md:grid-cols-12 gap-10&quot;&gt;
+      &lt;div class=&quot;md:col-span-5&quot;&gt;
+        &lt;div class=&quot;flex items-center gap-3 mb-4&quot;&gt;
+          &lt;div class=&quot;w-11 h-11 rounded-xl bg-gradient-to-br from-[#ff2e4d] to-[#c8203a] flex items-center justify-center shadow-lg shadow-red-500/30 overflow-hidden&quot;&gt;
+            &lt;svg viewBox=&quot;0 0 48 48&quot; class=&quot;w-7 h-7&quot;&gt;
+              &lt;line x1=&quot;24&quot; y1=&quot;24&quot; x2=&quot;24&quot; y2=&quot;14&quot; stroke=&quot;#fff&quot; stroke-width=&quot;1.5&quot; stroke-linecap=&quot;round&quot;/&gt;
+              &lt;line x1=&quot;24&quot; y1=&quot;24&quot; x2=&quot;30&quot; y2=&quot;24&quot; stroke=&quot;#fff&quot; stroke-width=&quot;1.5&quot; stroke-linecap=&quot;round&quot;/&gt;
+              &lt;circle cx=&quot;24&quot; cy=&quot;24&quot; r=&quot;1.5&quot; fill=&quot;#fff&quot;/&gt;
+              &lt;text x=&quot;24&quot; y=&quot;40&quot; text-anchor=&quot;middle&quot; font-family=&quot;Sora&quot; font-size=&quot;4&quot; font-weight=&quot;800&quot; fill=&quot;#fff&quot; letter-spacing=&quot;0.5&quot;&gt;DELIVERY&lt;/text&gt;
+              &lt;g transform=&quot;translate(8, 12) scale(0.65)&quot;&gt;
+                &lt;path d=&quot;M 16 10 L 24 10 L 26 20 L 14 20 Z&quot; fill=&quot;#fff&quot; opacity=&quot;0.9&quot;/&gt;
+                &lt;circle cx=&quot;20&quot; cy=&quot;6&quot; r=&quot;5&quot; fill=&quot;#fff&quot;/&gt;
+                &lt;path d=&quot;M 15 6 Q 20 1, 25 6 L 25 8 L 15 8 Z&quot; fill=&quot;#ff2e4d&quot;/&gt;
+                &lt;path d=&quot;M 8 24 L 16 24 L 18 20 M 16 24 L 24 24 L 28 20 L 32 24&quot; stroke=&quot;#fff&quot; stroke-width=&quot;1.5&quot; fill=&quot;none&quot;/&gt;
+                &lt;circle cx=&quot;10&quot; cy=&quot;26&quot; r=&quot;4&quot; fill=&quot;none&quot; stroke=&quot;#fff&quot; stroke-width=&quot;1.5&quot;/&gt;
+                &lt;circle cx=&quot;30&quot; cy=&quot;26&quot; r=&quot;4&quot; fill=&quot;none&quot; stroke=&quot;#fff&quot; stroke-width=&quot;1.5&quot;/&gt;
+                &lt;rect x=&quot;22&quot; y=&quot;10&quot; width=&quot;8&quot; height=&quot;8&quot; fill=&quot;#fff&quot; stroke=&quot;#ff2e4d&quot; stroke-width=&quot;0.5&quot;/&gt;
+              &lt;/g&gt;
+              &lt;circle cx=&quot;40&quot; cy=&quot;10&quot; r=&quot;2.5&quot; fill=&quot;#00e676&quot;/&gt;
+              &lt;circle cx=&quot;8&quot; cy=&quot;40&quot; r=&quot;2&quot; fill=&quot;#00e676&quot; opacity=&quot;0.7&quot;/&gt;
+            &lt;/svg&gt;
+          &lt;/div&gt;
+          &lt;div&gt;
+            &lt;div class=&quot;font-display font-extrabold text-lg&quot;&gt;Arif Delivery Service&lt;/div&gt;
+            &lt;div class=&quot;text-[11px] text-gray-500 tracking-[0.18em] uppercase&quot;&gt;Karachi • 24/7&lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;p class=&quot;text-gray-400 text-sm leading-relaxed max-w-md&quot;&gt;
+          Fast, reliable &amp; available 24/7 across Karachi. Professional delivery for restaurants, home chefs, coffee shops, dessert shops, gift shops and business delivery needs.
+        &lt;/p&gt;
+        &lt;div class=&quot;mt-6 flex items-center gap-3&quot;&gt;
+          &lt;a href=&quot;https://wa.me/923007029197&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;WhatsApp&quot; class=&quot;w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center hover:border-[#00e676]/50 hover:text-[#00e676] transition-colors&quot;&gt;
+            &lt;i data-lucide=&quot;message-circle&quot; class=&quot;w-5 h-5&quot;&gt;&lt;/i&gt;
+          &lt;/a&gt;
+          &lt;a href=&quot;tel:+923007029197&quot; aria-label=&quot;Call&quot; class=&quot;w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center hover:border-[#ff2e4d]/50 hover:text-[#ff2e4d] transition-colors&quot;&gt;
+            &lt;i data-lucide=&quot;phone&quot; class=&quot;w-5 h-5&quot;&gt;&lt;/i&gt;
+          &lt;/a&gt;
+          &lt;a href=&quot;mailto:arifhussain2381@gmail.com&quot; aria-label=&quot;Email&quot; class=&quot;w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center hover:border-[#ff2e4d]/50 hover:text-[#ff2e4d] transition-colors&quot;&gt;
+            &lt;i data-lucide=&quot;mail&quot; class=&quot;w-5 h-5&quot;&gt;&lt;/i&gt;
+          &lt;/a&gt;
+          &lt;a href=&quot;#&quot; aria-label=&quot;Facebook&quot; class=&quot;w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center hover:border-[#ff2e4d]/50 hover:text-[#ff2e4d] transition-colors&quot;&gt;
+            &lt;i data-lucide=&quot;facebook&quot; class=&quot;w-5 h-5&quot;&gt;&lt;/i&gt;
+          &lt;/a&gt;
+          &lt;a href=&quot;#&quot; aria-label=&quot;Instagram&quot; class=&quot;w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center hover:border-[#ff2e4d]/50 hover:text-[#ff2e4d] transition-colors&quot;&gt;
+            &lt;i data-lucide=&quot;instagram&quot; class=&quot;w-5 h-5&quot;&gt;&lt;/i&gt;
+          &lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;div class=&quot;md:col-span-3&quot;&gt;
+        &lt;h4 class=&quot;font-display font-bold text-sm uppercase tracking-wider text-gray-300 mb-4&quot;&gt;Quick Links&lt;/h4&gt;
+        &lt;ul class=&quot;space-y-2.5 text-sm&quot;&gt;
+          &lt;li&gt;&lt;a href=&quot;#home&quot; class=&quot;text-gray-400 hover:text-white transition-colors&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#services&quot; class=&quot;text-gray-400 hover:text-white transition-colors&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#about&quot; class=&quot;text-gray-400 hover:text-white transition-colors&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#how&quot; class=&quot;text-gray-400 hover:text-white transition-colors&quot;&gt;How It Works&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#contact&quot; class=&quot;text-gray-400 hover:text-white transition-colors&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+
+      &lt;div class=&quot;md:col-span-4&quot;&gt;
+        &lt;h4 class=&quot;font-display font-bold text-sm uppercase tracking-wider text-gray-300 mb-4&quot;&gt;Contact&lt;/h4&gt;
+        &lt;ul class=&quot;space-y-3 text-sm&quot;&gt;
+          &lt;li class=&quot;flex items-start gap-3&quot;&gt;
+            &lt;i data-lucide=&quot;phone&quot; class=&quot;w-4 h-4 text-[#ff2e4d] mt-0.5 shrink-0&quot;&gt;&lt;/i&gt;
+            &lt;a href=&quot;tel:+923007029197&quot; class=&quot;text-gray-400 hover:text-white transition-colors&quot;&gt;+92 300 7029197&lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li class=&quot;flex items-start gap-3&quot;&gt;
+            &lt;i data-lucide=&quot;mail&quot; class=&quot;w-4 h-4 text-[#ff2e4d] mt-0.5 shrink-0&quot;&gt;&lt;/i&gt;
+            &lt;a href=&quot;mailto:arifhussain2381@gmail.com&quot; class=&quot;text-gray-400 hover:text-white transition-colors break-all&quot;&gt;arifhussain2381@gmail.com&lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li class=&quot;flex items-start gap-3&quot;&gt;
+            &lt;i data-lucide=&quot;map-pin&quot; class=&quot;w-4 h-4 text-[#ff2e4d] mt-0.5 shrink-0&quot;&gt;&lt;/i&gt;
+            &lt;span class=&quot;text-gray-400&quot;&gt;DHA / Clifton, Karachi&lt;/span&gt;
+          &lt;/li&gt;
+          &lt;li class=&quot;flex items-start gap-3&quot;&gt;
+            &lt;i data-lucide=&quot;clock&quot; class=&quot;w-4 h-4 text-[#00e676] mt-0.5 shrink-0&quot;&gt;&lt;/i&gt;
+            &lt;span class=&quot;text-gray-400&quot;&gt;Open 24 Hours • Available 24/7&lt;/span&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;mt-12 pt-6 border-t border-white/5 flex flex-col sm:flex-row gap-3 items-center justify-between text-xs text-gray-500&quot;&gt;
+      &lt;div&gt;© &lt;span id=&quot;year&quot;&gt;&lt;/span&gt; Arif Delivery Service. All rights reserved.&lt;/div&gt;
+      &lt;div class=&quot;flex items-center gap-2&quot;&gt;
+        &lt;span&gt;Crafted with&lt;/span&gt;
+        &lt;i data-lucide=&quot;heart&quot; class=&quot;w-3 h-3 text-[#ff2e4d] fill-[#ff2e4d]&quot;&gt;&lt;/i&gt;
+        &lt;span&gt;for Karachi&lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/footer&gt;
+
+&lt;!-- ====== FLOATING WHATSAPP ====== --&gt;
+&lt;a href=&quot;https://wa.me/923007029197&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; aria-label=&quot;Chat on WhatsApp&quot; class=&quot;float-wa w-14 h-14 sm:w-16 sm:h-16 rounded-full flex items-center justify-center text-white&quot;&gt;
+  &lt;i data-lucide=&quot;message-circle&quot; class=&quot;w-7 h-7 sm:w-8 sm:h-8&quot;&gt;&lt;/i&gt;
+&lt;/a&gt;
+
+&lt;!-- ====== TOAST ====== --&gt;
+&lt;div id=&quot;toast&quot; class=&quot;toast fixed bottom-24 left-1/2 -translate-x-1/2 z-[80] px-5 py-3 rounded-xl bg-[#0c0c14] border border-[#00e676]/40 shadow-2xl flex items-center gap-3 text-sm&quot;&gt;
+  &lt;div class=&quot;w-8 h-8 rounded-full bg-[#00e676]/15 border border-[#00e676]/30 flex items-center justify-center&quot;&gt;
+    &lt;i data-lucide=&quot;check&quot; class=&quot;w-4 h-4 text-[#00e676]&quot;&gt;&lt;/i&gt;
+  &lt;/div&gt;
+  &lt;span&gt;Redirecting to WhatsApp...&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+  // Initialize Lucide icons
+  lucide.createIcons();
+
+  // Year
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  // ===== Navbar hide/show on scroll =====
+  let lastScroll = 0;
+  const navbar = document.getElementById('navbar');
+  window.addEventListener('scroll', () =&gt; {
+    const cur = window.scrollY;
+    if (cur &gt; lastScroll &amp;&amp; cur &gt; 200) {
+      navbar.style.transform = 'translateY(-100%)';
+    } else {
+      navbar.style.transform = 'translateY(0)';
+    }
+    lastScroll = cur;
+  });
+
+  // ===== Mobile menu =====
+  const menuBtn = document.getElementById('menuBtn');
+  const closeMenu = document.getElementById('closeMenu');
+  const mobileMenu = document.getElementById('mobileMenu');
+  const menuBackdrop = document.getElementById('menuBackdrop');
+
+  function openMobileMenu() {
+    mobileMenu.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeMobileMenu() {
+    mobileMenu.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+  menuBtn.addEventListener('click', openMobileMenu);
+  closeMenu.addEventListener('click', closeMobileMenu);
+  menuBackdrop.addEventListener('click', closeMobileMenu);
+  document.querySelectorAll('.mobile-link').forEach(link =&gt; {
+    link.addEventListener('click', closeMobileMenu);
+  });
+
+  // ===== Scroll reveal =====
+  const revealEls = document.querySelectorAll('.reveal');
+  const io = new IntersectionObserver((entries) =&gt; {
+    entries.forEach(entry =&gt; {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('in');
+        io.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.12, rootMargin: '0px 0px -60px 0px' });
+  revealEls.forEach(el =&gt; io.observe(el));
+
+  // ===== Counters =====
+  const counters = document.querySelectorAll('.counter');
+  const counterIO = new IntersectionObserver((entries) =&gt; {
+    entries.forEach(entry =&gt; {
+      if (entry.isIntersecting) {
+        const el = entry.target;
+        const target = parseInt(el.dataset.target, 10);
+        const suffix = el.dataset.suffix || '';
+        const duration = 1800;
+        const start = performance.now();
+        function tick(now) {
+          const p = Math.min((now - start) / duration, 1);
+          const eased = 1 - Math.pow(1 - p, 3);
+          el.textContent = Math.round(target * eased) + suffix;
+          if (p &lt; 1) requestAnimationFrame(tick);
+        }
+        requestAnimationFrame(tick);
+        counterIO.unobserve(el);
+      }
+    });
+  }, { threshold: 0.5 });
+  counters.forEach(c =&gt; counterIO.observe(c));
+
+  // ===== Zone price count-up =====
+  const zonePrices = document.querySelectorAll('.zone-price');
+  const zoneIO = new IntersectionObserver((entries) =&gt; {
+    entries.forEach(entry =&gt; {
+      if (entry.isIntersecting) {
+        const el = entry.target;
+        const target = parseInt(el.dataset.target, 10);
+        const duration = 1500;
+        const start = performance.now();
+        function tick(now) {
+          const p = Math.min((now - start) / duration, 1);
+          const eased = 1 - Math.pow(1 - p, 3);
+          el.textContent = Math.round(target * eased);
+          if (p &lt; 1) requestAnimationFrame(tick);
+        }
+        requestAnimationFrame(tick);
+        zoneIO.unobserve(el);
+      }
+    });
+  }, { threshold: 0.5 });
+  zonePrices.forEach(p =&gt; zoneIO.observe(p));
+
+  // ===== Zone card expand/collapse =====
+  document.querySelectorAll('.toggle-areas').forEach(btn =&gt; {
+    btn.addEventListener('click', () =&gt; {
+      const card = btn.closest('.zone-card');
+      card.classList.toggle('expanded');
+    });
+  });
+
+  // ===== Animated zone bike =====
+  const zoneBike = document.getElementById('zoneBike');
+  const zonesSection = document.getElementById('zones');
+  let zoneBikeAnimating = false;
+  
+  const zoneBikeIO = new IntersectionObserver((entries) =&gt; {
+    entries.forEach(entry =&gt; {
+      if (entry.isIntersecting &amp;&amp; !zoneBikeAnimating) {
+        zoneBikeAnimating = true;
+        animateZoneBike();
+      }
+    });
+  }, { threshold: 0.3 });
+  zoneBikeIO.observe(zonesSection);
+
+  function animateZoneBike() {
+    let start = null;
+    const duration = 4000;
+    const containerWidth = zonesSection.offsetWidth - 100; // Account for icon width
+    
+    function step(timestamp) {
+      if (!start) start = timestamp;
+      const progress = Math.min((timestamp - start) / duration, 1);
+      const eased = progress &lt; 0.5 
+        ? 2 * progress * progress 
+        : 1 - Math.pow(-2 * progress + 2, 2) / 2;
+      
+      // Curve the path slightly
+      const x = eased * containerWidth;
+      const y = Math.sin(eased * Math.PI) * -15;
+      zoneBike.style.left = `${x}px`;
+      zoneBike.style.transform = `translateY(${y}px)`;
+      
+      if (progress &lt; 1) {
+        requestAnimationFrame(step);
+      } else {
+        // Restart after pause
+        setTimeout(() =&gt; {
+          start = null;
+          requestAnimationFrame(step);
+        }, 1500);
+      }
+    }
+    requestAnimationFrame(step);
+  }
+
+  // ===== Service card mouse glow =====
+  document.querySelectorAll('.service-card').forEach(card =&gt; {
+    card.addEventListener('mousemove', (e) =&gt; {
+      const rect = card.getBoundingClientRect();
+      card.style.setProperty('--mx', `${e.clientX - rect.left}px`);
+      card.style.setProperty('--my', `${e.clientY - rect.top}px`);
+    });
+  });
+
+  // ===== Toast =====
+  const toast = document.getElementById('toast');
+  function showToast() {
+    toast.classList.add('show');
+    setTimeout(() =&gt; toast.classList.remove('show'), 2500);
+  }
+
+  // ===== Booking form -&gt; WhatsApp =====
+  const bookingForm = document.getElementById('bookingForm');
+  bookingForm.addEventListener('submit', (e) =&gt; {
+    e.preventDefault();
+    const name = document.getElementById('custName').value.trim();
+    const phone = document.getElementById('custPhone').value.trim();
+    const pickup = document.getElementById('pickupLoc').value.trim();
+    const drop = document.getElementById('dropLoc').value.trim();
+    const service = document.getElementById('serviceType').value;
+    const time = document.getElementById('pickupTime').value;
+    const details = document.getElementById('details').value.trim();
+
+    const msg = `*New Delivery Request*%0A%0A` +
+      `*Name:* ${encodeURIComponent(name)}%0A` +
+      `*Phone:* ${encodeURIComponent(phone)}%0A` +
+      `*Service:* ${encodeURIComponent(service)}%0A` +
+      `*Pickup:* ${encodeURIComponent(pickup)}%0A` +
+      `*Drop-off:* ${encodeURIComponent(drop)}%0A` +
+      `*Preferred Time:* ${encodeURIComponent(time)}%0A` +
+      `*Details:* ${encodeURIComponent(details)}`;
+    
+    showToast();
+    setTimeout(() =&gt; {
+      window.open(`https://wa.me/923007029197?text=${msg}`, '_blank');
+      bookingForm.reset();
+    }, 800);
+  });
+
+  // ===== Contact form -&gt; WhatsApp =====
+  const contactForm = document.getElementById('contactForm');
+  contactForm.addEventListener('submit', (e) =&gt; {
+    e.preventDefault();
+    const name = document.getElementById('cName').value.trim();
+    const phone = document.getElementById('cPhone').value.trim();
+    const msg = document.getElementById('cMsg').value.trim();
+
+    const text = `*New Message*%0A%0A*Name:* ${encodeURIComponent(name)}%0A*Phone:* ${encodeURIComponent(phone)}%0A*Message:* ${encodeURIComponent(msg)}`;
+    showToast();
+    setTimeout(() =&gt; {
+      window.open(`https://wa.me/923007029197?text=${text}`, '_blank');
+      contactForm.reset();
+    }, 800);
+  });
+
+  // ===== Smooth scroll for anchor links (offset for navbar) =====
+  document.querySelectorAll('a[href^=&quot;#&quot;]').forEach(anchor =&gt; {
+    anchor.addEventListener('click', function(e) {
+      const target = document.querySelector(this.getAttribute('href'));
+      if (target) {
+        e.preventDefault();
+        const offset = 80;
+        const top = target.getBoundingClientRect().top + window.pageYOffset - offset;
+        window.scrollTo({ top, behavior: 'smooth' });
+      }
+    });
+  });
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</pre>
+</body>
+</html>
